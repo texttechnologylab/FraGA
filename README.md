@@ -124,9 +124,7 @@ For every participant, there is a zipped JSON file containing the tracking data.
         Upper_Lid_Raiser_R = 60,
         Upper_Lip_Raiser_L = 61,
         Upper_Lip_Raiser_R = 62,
-    
 ```
-
 
 ### fingersleft.json & fingersright.json
 
