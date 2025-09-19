@@ -1,0 +1,96 @@
+{
+    "text": " Bin ich Person eins oder zwei? And I have read him. Links oben.",
+    "words": [
+        {
+            "text": "Bin",
+            "timestamp": [
+                0.1200000000000001,
+                0.3099999999999996
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                0.3099999999999996,
+                0.41999999999999993
+            ]
+        },
+        {
+            "text": "Person",
+            "timestamp": [
+                0.41999999999999993,
+                0.7000000000000002
+            ]
+        },
+        {
+            "text": "eins",
+            "timestamp": [
+                0.7000000000000002,
+                0.8899999999999997
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                0.8899999999999997,
+                1.08
+            ]
+        },
+        {
+            "text": "zwei?",
+            "timestamp": [
+                1.08,
+                6.08
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                20.22,
+                20.41
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.41,
+                20.5
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                20.52,
+                20.72
+            ]
+        },
+        {
+            "text": "read",
+            "timestamp": [
+                20.72,
+                20.92
+            ]
+        },
+        {
+            "text": "him.",
+            "timestamp": [
+                20.92,
+                22.98
+            ]
+        },
+        {
+            "text": "Links",
+            "timestamp": [
+                28.5,
+                28.94
+            ]
+        },
+        {
+            "text": "oben.",
+            "timestamp": [
+                29.0,
+                30.56
+            ]
+        }
+    ]
+}

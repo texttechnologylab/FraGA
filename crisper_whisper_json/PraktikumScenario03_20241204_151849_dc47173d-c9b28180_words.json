@@ -1,0 +1,348 @@
+{
+    "text": " Also Person eins und Person zwei. [UM]-hmm. Yeah. Okay. Okay. Yeah, okay. [UM]. Is this computer? Ja, ja. [UH] yeah. Also ich kann ihn nicht über also ich höre ihn so so. [UH] yeah. Yeah, okay. [UM]. Er bewegt sich nicht. [UM] okay. [UM] [UH]-huh, [UH] disconnect.",
+    "words": [
+        {
+            "text": "Also",
+            "timestamp": [
+                1.6800000000000002,
+                2.04
+            ]
+        },
+        {
+            "text": "Person",
+            "timestamp": [
+                2.0600000000000005,
+                2.4000000000000004
+            ]
+        },
+        {
+            "text": "eins",
+            "timestamp": [
+                2.4000000000000004,
+                2.5600000000000005
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                2.5600000000000005,
+                2.6500000000000004
+            ]
+        },
+        {
+            "text": "Person",
+            "timestamp": [
+                2.6500000000000004,
+                2.95
+            ]
+        },
+        {
+            "text": "zwei.",
+            "timestamp": [
+                2.95,
+                7.779999999999999
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                22.16,
+                23.7
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                23.7,
+                24.38
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                35.78,
+                38.88
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                54.5,
+                69.38
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                77.4,
+                80.08000000000001
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                90.46000000000001,
+                91.22
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                92.0,
+                96.78
+            ]
+        },
+        {
+            "text": "[UM].",
+            "timestamp": [
+                103.66,
+                107.28
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                489.26,
+                490.47999999999996
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                490.71999999999997,
+                490.94
+            ]
+        },
+        {
+            "text": "computer?",
+            "timestamp": [
+                490.94,
+                491.38
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                500.8,
+                504.16
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                505.40000000000003,
+                507.68
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                514.1800000000001,
+                515.3100000000001
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                515.3100000000001,
+                517.48
+            ]
+        },
+        {
+            "text": "Also",
+            "timestamp": [
+                542.94,
+                551.44
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                551.54,
+                551.83
+            ]
+        },
+        {
+            "text": "kann",
+            "timestamp": [
+                551.83,
+                552.2
+            ]
+        },
+        {
+            "text": "ihn",
+            "timestamp": [
+                552.24,
+                552.57
+            ]
+        },
+        {
+            "text": "nicht",
+            "timestamp": [
+                552.57,
+                552.98
+            ]
+        },
+        {
+            "text": "über",
+            "timestamp": [
+                553.06,
+                553.3
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                553.3,
+                553.52
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                553.52,
+                553.69
+            ]
+        },
+        {
+            "text": "höre",
+            "timestamp": [
+                553.69,
+                553.93
+            ]
+        },
+        {
+            "text": "ihn",
+            "timestamp": [
+                553.93,
+                554.2
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                554.26,
+                554.46
+            ]
+        },
+        {
+            "text": "so.",
+            "timestamp": [
+                554.46,
+                556.68
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                560.96,
+                561.42
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                561.6,
+                565.78
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                572.88,
+                573.08
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                573.08,
+                576.98
+            ]
+        },
+        {
+            "text": "[UM].",
+            "timestamp": [
+                591.7,
+                594.58
+            ]
+        },
+        {
+            "text": "Er",
+            "timestamp": [
+                611.6800000000001,
+                611.9000000000001
+            ]
+        },
+        {
+            "text": "bewegt",
+            "timestamp": [
+                612.12,
+                612.61
+            ]
+        },
+        {
+            "text": "sich",
+            "timestamp": [
+                612.61,
+                612.8100000000001
+            ]
+        },
+        {
+            "text": "nicht.",
+            "timestamp": [
+                612.8100000000001,
+                615.38
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                676.96,
+                677.24
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                677.24,
+                684.28
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                699.0600000000001,
+                702.98
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                706.98,
+                707.0
+            ]
+        },
+        {
+            "text": "-huh,",
+            "timestamp": [
+                707.0,
+                707.6
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                707.78,
+                708.28
+            ]
+        },
+        {
+            "text": "disconnect.",
+            "timestamp": [
+                709.2,
+                718.62
+            ]
+        }
+    ]
+}

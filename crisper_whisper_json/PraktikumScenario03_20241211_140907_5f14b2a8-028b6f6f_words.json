@@ -1,0 +1,1335 @@
+{
+    "text": " Person zwei, denk ich mal. Hmm. Oh, jetzt höre ich den Max. Ah ja. Ah Moin, du musst an links gucken, Max. Das ist ja crazy. Ah, man muss ja wirklich greifen, jetzt verstehe ich das. Das ist ja verrückt. Ja, okay. Okay, krass, ja. Also ich hoff, ich hoff es nicht, aber das, aber das sch sch schön die Aussicht ja. Ja okay, ja. Ich mein ich muss noch ne Bachelor Arbeit irgendwann schreiben. Ja. Ich bin erst im vierten. Ach, ich sehe schöne Weine und das so. Ich glaube, du bist fertig, oder? Yeah. Ah, du musst auf Roll Description, glaube ich, nochmal drücken. Ah nee. Habe ich auch gedrückt. Ähm hier steht oh, also bei ready ist auch ein Häkchen bei mir und erklären lassen steht auf einer eins. Ich kann auf Roll Description nochmal drücken, aber ja. Danke schön. Ah, jetzt sehe ich Max wieder. Ah ja, du auch bei mir, also beweg sich nicht. Max merkte den Weg gut. Jetzt habe ich wieder Menü vor mir. Jetzt bin ich in der Stadt. Ah ja, hier. Ah ja, okay. Ja [UH] drei Pünktchen oder aufs X?",
+    "words": [
+        {
+            "text": "Person",
+            "timestamp": [
+                -1.92,
+                0.2200000000000002
+            ]
+        },
+        {
+            "text": "zwei,",
+            "timestamp": [
+                0.33999999999999986,
+                0.7000000000000002
+            ]
+        },
+        {
+            "text": "denk",
+            "timestamp": [
+                0.7000000000000002,
+                0.9199999999999999
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                0.9199999999999999,
+                1.0499999999999998
+            ]
+        },
+        {
+            "text": "mal.",
+            "timestamp": [
+                1.0499999999999998,
+                3.1799999999999997
+            ]
+        },
+        {
+            "text": "Hmm.",
+            "timestamp": [
+                12.280000000000001,
+                14.68
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                23.04,
+                26.27
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                26.27,
+                26.46
+            ]
+        },
+        {
+            "text": "höre",
+            "timestamp": [
+                26.46,
+                26.61
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                26.61,
+                26.740000000000002
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                26.740000000000002,
+                27.06
+            ]
+        },
+        {
+            "text": "Max.",
+            "timestamp": [
+                27.060000000000002,
+                27.5
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                27.54,
+                27.759999999999998
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                27.76,
+                27.96
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                30.78,
+                31.11
+            ]
+        },
+        {
+            "text": "Moin,",
+            "timestamp": [
+                31.11,
+                31.45
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                31.45,
+                31.61
+            ]
+        },
+        {
+            "text": "musst",
+            "timestamp": [
+                31.61,
+                31.77
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                31.77,
+                31.9
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                31.9,
+                32.16
+            ]
+        },
+        {
+            "text": "gucken,",
+            "timestamp": [
+                32.16,
+                32.43
+            ]
+        },
+        {
+            "text": "Max.",
+            "timestamp": [
+                32.43,
+                32.8
+            ]
+        },
+        {
+            "text": "Das",
+            "timestamp": [
+                33.4,
+                35.52
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                35.58,
+                35.68
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                35.68,
+                35.85
+            ]
+        },
+        {
+            "text": "crazy.",
+            "timestamp": [
+                35.85,
+                44.879999999999995
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                77.05999999999999,
+                77.5
+            ]
+        },
+        {
+            "text": "man",
+            "timestamp": [
+                77.53999999999999,
+                77.71
+            ]
+        },
+        {
+            "text": "muss",
+            "timestamp": [
+                77.71,
+                77.89
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                77.89,
+                78.07
+            ]
+        },
+        {
+            "text": "wirklich",
+            "timestamp": [
+                78.07,
+                78.55999999999999
+            ]
+        },
+        {
+            "text": "greifen,",
+            "timestamp": [
+                78.55999999999999,
+                79.14999999999999
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                79.14999999999999,
+                79.44
+            ]
+        },
+        {
+            "text": "verstehe",
+            "timestamp": [
+                79.44,
+                79.85
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                79.85,
+                80.02
+            ]
+        },
+        {
+            "text": "das.",
+            "timestamp": [
+                80.02,
+                80.33999999999999
+            ]
+        },
+        {
+            "text": "Das",
+            "timestamp": [
+                82.46,
+                82.8
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                82.8,
+                82.88
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                82.88,
+                83.00999999999999
+            ]
+        },
+        {
+            "text": "verrückt.",
+            "timestamp": [
+                83.00999999999999,
+                83.56
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                89.16,
+                91.44
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                91.46,
+                91.8
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                92.38,
+                92.75
+            ]
+        },
+        {
+            "text": "krass,",
+            "timestamp": [
+                92.75,
+                93.13999999999999
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                93.16,
+                93.5
+            ]
+        },
+        {
+            "text": "Also",
+            "timestamp": [
+                95.91999999999999,
+                96.92999999999999
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                96.92999999999999,
+                97.05
+            ]
+        },
+        {
+            "text": "hoff,",
+            "timestamp": [
+                97.05,
+                97.3
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                97.3,
+                97.47999999999999
+            ]
+        },
+        {
+            "text": "hoff",
+            "timestamp": [
+                97.47999999999999,
+                97.69
+            ]
+        },
+        {
+            "text": "es",
+            "timestamp": [
+                97.69,
+                97.88
+            ]
+        },
+        {
+            "text": "nicht,",
+            "timestamp": [
+                97.88,
+                98.21
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                98.21,
+                98.72
+            ]
+        },
+        {
+            "text": "das,",
+            "timestamp": [
+                98.97999999999999,
+                98.22
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                98.22,
+                98.72
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                98.97999999999999,
+                99.28999999999999
+            ]
+        },
+        {
+            "text": "sch",
+            "timestamp": [
+                99.28999999999999,
+                99.55999999999999
+            ]
+        },
+        {
+            "text": "sch",
+            "timestamp": [
+                99.58,
+                100.07
+            ]
+        },
+        {
+            "text": "schön",
+            "timestamp": [
+                100.07,
+                100.83
+            ]
+        },
+        {
+            "text": "die",
+            "timestamp": [
+                100.83,
+                101.02
+            ]
+        },
+        {
+            "text": "Aussicht",
+            "timestamp": [
+                101.02,
+                101.58
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                101.97999999999999,
+                102.46
+            ]
+        },
+        {
+            "text": "Ja",
+            "timestamp": [
+                105.14,
+                106.78
+            ]
+        },
+        {
+            "text": "okay,",
+            "timestamp": [
+                106.86,
+                107.16999999999999
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                107.16999999999999,
+                107.58
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                108.33999999999999,
+                108.55
+            ]
+        },
+        {
+            "text": "mein",
+            "timestamp": [
+                108.55,
+                108.69
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                108.69,
+                108.8
+            ]
+        },
+        {
+            "text": "muss",
+            "timestamp": [
+                108.8,
+                108.94
+            ]
+        },
+        {
+            "text": "noch",
+            "timestamp": [
+                108.94,
+                109.08
+            ]
+        },
+        {
+            "text": "ne",
+            "timestamp": [
+                109.08,
+                109.19
+            ]
+        },
+        {
+            "text": "Bachelor",
+            "timestamp": [
+                109.19,
+                109.5
+            ]
+        },
+        {
+            "text": "Arbeit",
+            "timestamp": [
+                109.5,
+                109.84
+            ]
+        },
+        {
+            "text": "irgendwann",
+            "timestamp": [
+                109.85999999999999,
+                110.19
+            ]
+        },
+        {
+            "text": "schreiben.",
+            "timestamp": [
+                110.19,
+                110.72
+            ]
+        },
+        {
+            "text": "Ja.",
+            "timestamp": [
+                112.56,
+                116.47999999999999
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                118.29999999999998,
+                119.67999999999999
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                119.67999999999999,
+                119.84
+            ]
+        },
+        {
+            "text": "erst",
+            "timestamp": [
+                119.84,
+                119.99
+            ]
+        },
+        {
+            "text": "im",
+            "timestamp": [
+                119.99,
+                120.10999999999999
+            ]
+        },
+        {
+            "text": "vierten.",
+            "timestamp": [
+                120.10999999999999,
+                131.28
+            ]
+        },
+        {
+            "text": "Ach,",
+            "timestamp": [
+                156.06,
+                156.42
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                157.42,
+                157.63
+            ]
+        },
+        {
+            "text": "sehe",
+            "timestamp": [
+                157.63,
+                157.85999999999999
+            ]
+        },
+        {
+            "text": "schöne",
+            "timestamp": [
+                157.85999999999999,
+                158.16
+            ]
+        },
+        {
+            "text": "Weine",
+            "timestamp": [
+                158.16,
+                158.54
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                158.54,
+                158.66
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                158.66,
+                158.85
+            ]
+        },
+        {
+            "text": "so.",
+            "timestamp": [
+                158.85,
+                167.88
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                579.86,
+                580.0
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                580.0,
+                580.17
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                580.17,
+                580.28
+            ]
+        },
+        {
+            "text": "bist",
+            "timestamp": [
+                580.28,
+                580.46
+            ]
+        },
+        {
+            "text": "fertig,",
+            "timestamp": [
+                580.46,
+                580.86
+            ]
+        },
+        {
+            "text": "oder?",
+            "timestamp": [
+                580.86,
+                583.08
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                587.18,
+                589.38
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                598.74,
+                602.6400000000001
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                602.6400000000001,
+                602.74
+            ]
+        },
+        {
+            "text": "musst",
+            "timestamp": [
+                602.74,
+                602.9200000000001
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                602.9200000000001,
+                603.11
+            ]
+        },
+        {
+            "text": "Roll",
+            "timestamp": [
+                603.11,
+                603.38
+            ]
+        },
+        {
+            "text": "Description,",
+            "timestamp": [
+                603.38,
+                603.98
+            ]
+        },
+        {
+            "text": "glaube",
+            "timestamp": [
+                603.98,
+                604.13
+            ]
+        },
+        {
+            "text": "ich,",
+            "timestamp": [
+                604.13,
+                604.24
+            ]
+        },
+        {
+            "text": "nochmal",
+            "timestamp": [
+                604.24,
+                604.45
+            ]
+        },
+        {
+            "text": "drücken.",
+            "timestamp": [
+                604.45,
+                604.7800000000001
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                604.82,
+                604.98
+            ]
+        },
+        {
+            "text": "nee.",
+            "timestamp": [
+                604.98,
+                607.08
+            ]
+        },
+        {
+            "text": "Habe",
+            "timestamp": [
+                616.24,
+                616.4499999999999
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                616.4499999999999,
+                616.5699999999999
+            ]
+        },
+        {
+            "text": "auch",
+            "timestamp": [
+                616.5699999999999,
+                616.74
+            ]
+        },
+        {
+            "text": "gedrückt.",
+            "timestamp": [
+                616.74,
+                617.28
+            ]
+        },
+        {
+            "text": "Ähm",
+            "timestamp": [
+                618.76,
+                619.76
+            ]
+        },
+        {
+            "text": "hier",
+            "timestamp": [
+                620.4,
+                622.4399999999999
+            ]
+        },
+        {
+            "text": "steht",
+            "timestamp": [
+                622.4399999999999,
+                622.8199999999999
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                623.26,
+                623.64
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                626.1999999999999,
+                626.49
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                626.49,
+                626.63
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                626.63,
+                626.8599999999999
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                626.8599999999999,
+                627.01
+            ]
+        },
+        {
+            "text": "auch",
+            "timestamp": [
+                627.01,
+                627.1099999999999
+            ]
+        },
+        {
+            "text": "ein",
+            "timestamp": [
+                627.1099999999999,
+                627.2199999999999
+            ]
+        },
+        {
+            "text": "Häkchen",
+            "timestamp": [
+                627.2199999999999,
+                627.55
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                627.55,
+                627.7199999999999
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                627.7199999999999,
+                627.9
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                627.9,
+                628.16
+            ]
+        },
+        {
+            "text": "erklären",
+            "timestamp": [
+                628.16,
+                628.5799999999999
+            ]
+        },
+        {
+            "text": "lassen",
+            "timestamp": [
+                628.5999999999999,
+                629.0999999999999
+            ]
+        },
+        {
+            "text": "steht",
+            "timestamp": [
+                629.3,
+                629.6099999999999
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                629.6099999999999,
+                629.7299999999999
+            ]
+        },
+        {
+            "text": "einer",
+            "timestamp": [
+                629.7299999999999,
+                629.91
+            ]
+        },
+        {
+            "text": "eins.",
+            "timestamp": [
+                629.91,
+                630.38
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                630.4399999999999,
+                630.5899999999999
+            ]
+        },
+        {
+            "text": "kann",
+            "timestamp": [
+                630.5899999999999,
+                630.7299999999999
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                630.7299999999999,
+                630.87
+            ]
+        },
+        {
+            "text": "Roll",
+            "timestamp": [
+                630.87,
+                631.13
+            ]
+        },
+        {
+            "text": "Description",
+            "timestamp": [
+                631.13,
+                631.75
+            ]
+        },
+        {
+            "text": "nochmal",
+            "timestamp": [
+                631.75,
+                632.01
+            ]
+        },
+        {
+            "text": "drücken,",
+            "timestamp": [
+                632.01,
+                632.37
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                632.37,
+                632.8
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                634.4,
+                636.78
+            ]
+        },
+        {
+            "text": "Danke",
+            "timestamp": [
+                656.54,
+                657.38
+            ]
+        },
+        {
+            "text": "schön.",
+            "timestamp": [
+                657.42,
+                659.78
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                675.26,
+                675.4799999999999
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                675.4799999999999,
+                675.63
+            ]
+        },
+        {
+            "text": "sehe",
+            "timestamp": [
+                675.63,
+                675.75
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                675.75,
+                675.8599999999999
+            ]
+        },
+        {
+            "text": "Max",
+            "timestamp": [
+                675.8599999999999,
+                676.2199999999999
+            ]
+        },
+        {
+            "text": "wieder.",
+            "timestamp": [
+                676.3599999999999,
+                683.88
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                687.8,
+                687.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                687.99,
+                688.25
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                688.25,
+                688.4599999999999
+            ]
+        },
+        {
+            "text": "auch",
+            "timestamp": [
+                688.4599999999999,
+                688.66
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                688.66,
+                688.8299999999999
+            ]
+        },
+        {
+            "text": "mir,",
+            "timestamp": [
+                688.8299999999999,
+                689.12
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                689.12,
+                689.38
+            ]
+        },
+        {
+            "text": "beweg",
+            "timestamp": [
+                689.38,
+                689.6899999999999
+            ]
+        },
+        {
+            "text": "sich",
+            "timestamp": [
+                689.6899999999999,
+                689.93
+            ]
+        },
+        {
+            "text": "nicht.",
+            "timestamp": [
+                689.93,
+                696.18
+            ]
+        },
+        {
+            "text": "Max",
+            "timestamp": [
+                797.94,
+                798.27
+            ]
+        },
+        {
+            "text": "merkte",
+            "timestamp": [
+                798.27,
+                798.6
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                798.6,
+                798.77
+            ]
+        },
+        {
+            "text": "Weg",
+            "timestamp": [
+                798.77,
+                798.98
+            ]
+        },
+        {
+            "text": "gut.",
+            "timestamp": [
+                798.98,
+                808.98
+            ]
+        },
+        {
+            "text": "Jetzt",
+            "timestamp": [
+                818.36,
+                818.8
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                819.0799999999999,
+                819.3299999999999
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                819.3299999999999,
+                819.4399999999999
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                819.4399999999999,
+                819.63
+            ]
+        },
+        {
+            "text": "Menü",
+            "timestamp": [
+                819.63,
+                820.04
+            ]
+        },
+        {
+            "text": "vor",
+            "timestamp": [
+                820.04,
+                820.31
+            ]
+        },
+        {
+            "text": "mir.",
+            "timestamp": [
+                820.31,
+                822.48
+            ]
+        },
+        {
+            "text": "Jetzt",
+            "timestamp": [
+                850.3199999999999,
+                850.9599999999999
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                850.9599999999999,
+                851.13
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                851.13,
+                851.29
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                851.29,
+                851.39
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                851.39,
+                851.78
+            ]
+        },
+        {
+            "text": "Stadt.",
+            "timestamp": [
+                851.86,
+                854.78
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                874.6600000000001,
+                874.88
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                879.74,
+                879.99
+            ]
+        },
+        {
+            "text": "hier.",
+            "timestamp": [
+                879.99,
+                880.2800000000001
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                882.0,
+                882.25
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                882.25,
+                882.44
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                882.44,
+                882.76
+            ]
+        },
+        {
+            "text": "Ja",
+            "timestamp": [
+                884.5600000000001,
+                884.9200000000001
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                886.74,
+                888.1400000000001
+            ]
+        },
+        {
+            "text": "drei",
+            "timestamp": [
+                889.34,
+                889.6500000000001
+            ]
+        },
+        {
+            "text": "Pünktchen",
+            "timestamp": [
+                889.6500000000001,
+                890.1700000000001
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                890.1700000000001,
+                890.38
+            ]
+        },
+        {
+            "text": "aufs",
+            "timestamp": [
+                890.38,
+                890.6400000000001
+            ]
+        },
+        {
+            "text": "X?",
+            "timestamp": [
+                890.6400000000001,
+                892.96
+            ]
+        }
+    ]
+}

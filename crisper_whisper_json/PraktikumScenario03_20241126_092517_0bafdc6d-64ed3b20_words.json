@@ -1,0 +1,1615 @@
+{
+    "text": " [UH] soll ich Person eins oder zwei? Okay. Ja, wir sehen uns. Yeah. Ich bin jetzt im Levelmenü. Äh, nein. Genau, aber jetzt werde ich. [UM]. [UM]-hmm. [UM] Der Controller zur Seite. Hmm? Mit was einer C-Kreuzung? Helm Scherck hat vor den Leg. Okay, also bei der T-Kreuzung links und dann aber rechts halten. Okay. Genau, und dort dann links und rechts halten. Okay, es war jetzt viel Information auf einmal, also ich weiß auf jeden Fall, bei der ersten Laterne einfach ganz kre ganz sehr geradeaus, dann Z T Kreuzung, dort dann links und dann links rechts links links rechts. Ich höre gerade vor den Leg. Kannst du mal langsam erklären? Okay, also links, rechts, links, links, links. Okay, ja, das lassen wir im Menü sein. Okay, okay. Ja, ich muss mir nur noch schnell merken, es sind viele Informationen auf einmal, aber ich habe eine grobe Vorstellung. Ja, was soll ich, was sollen wir jetzt machen? An der Kirche rechts vorbei, oder? Oder links? Okay, kannst du nur noch kurz nach der T-Kreuzung kurz beschreiben, also links, rechts, links, links, links. Okay. Okay. er Yeah. Bisschen schwer auszuwählen. Okay. Okay. Dankschön. Ja. [UM]. Ich glaube, ich habe mich verlaufen, aber ich glaube, ich weiß ungefähr, wo das ist. Ja, ich laufe da mal hin. Ja, also schon fertig, aber ich glaube, schon falsch. Yeah.",
+    "words": [
+        {
+            "text": "[UH]",
+            "timestamp": [
+                0.6200000000000001,
+                1.1
+            ]
+        },
+        {
+            "text": "soll",
+            "timestamp": [
+                1.1,
+                1.2999999999999998
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1.2999999999999998,
+                1.42
+            ]
+        },
+        {
+            "text": "Person",
+            "timestamp": [
+                1.42,
+                1.8399999999999999
+            ]
+        },
+        {
+            "text": "eins",
+            "timestamp": [
+                1.8399999999999999,
+                2.0599999999999996
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                2.0599999999999996,
+                2.2699999999999996
+            ]
+        },
+        {
+            "text": "zwei?",
+            "timestamp": [
+                2.2699999999999996,
+                2.579999999999999
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                3.4000000000000004,
+                5.78
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                19.82,
+                20.299999999999997
+            ]
+        },
+        {
+            "text": "wir",
+            "timestamp": [
+                20.779999999999998,
+                21.049999999999997
+            ]
+        },
+        {
+            "text": "sehen",
+            "timestamp": [
+                21.049999999999997,
+                21.34
+            ]
+        },
+        {
+            "text": "uns.",
+            "timestamp": [
+                21.34,
+                27.08
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                30.26,
+                32.58
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                57.14,
+                57.4
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                57.48,
+                57.95
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                57.95,
+                58.14
+            ]
+        },
+        {
+            "text": "im",
+            "timestamp": [
+                58.14,
+                58.26
+            ]
+        },
+        {
+            "text": "Levelmenü.",
+            "timestamp": [
+                58.26,
+                60.980000000000004
+            ]
+        },
+        {
+            "text": "Äh,",
+            "timestamp": [
+                65.68,
+                66.0
+            ]
+        },
+        {
+            "text": "nein.",
+            "timestamp": [
+                66.04,
+                68.48
+            ]
+        },
+        {
+            "text": "Genau,",
+            "timestamp": [
+                72.10000000000001,
+                72.58
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                72.62,
+                73.0
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                73.04,
+                73.25
+            ]
+        },
+        {
+            "text": "werde",
+            "timestamp": [
+                73.25,
+                73.51
+            ]
+        },
+        {
+            "text": "ich.",
+            "timestamp": [
+                73.51,
+                75.58
+            ]
+        },
+        {
+            "text": "[UM].",
+            "timestamp": [
+                96.16,
+                98.67999999999999
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                512.6,
+                512.72
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                512.72,
+                520.2800000000001
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                530.52,
+                533.08
+            ]
+        },
+        {
+            "text": "Der",
+            "timestamp": [
+                551.26,
+                551.48
+            ]
+        },
+        {
+            "text": "Controller",
+            "timestamp": [
+                551.48,
+                552.04
+            ]
+        },
+        {
+            "text": "zur",
+            "timestamp": [
+                552.04,
+                552.23
+            ]
+        },
+        {
+            "text": "Seite.",
+            "timestamp": [
+                552.23,
+                563.68
+            ]
+        },
+        {
+            "text": "Hmm?",
+            "timestamp": [
+                566.78,
+                569.0799999999999
+            ]
+        },
+        {
+            "text": "Mit",
+            "timestamp": [
+                596.5600000000001,
+                596.82
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                596.86,
+                597.1800000000001
+            ]
+        },
+        {
+            "text": "einer",
+            "timestamp": [
+                597.1800000000001,
+                597.4300000000001
+            ]
+        },
+        {
+            "text": "C",
+            "timestamp": [
+                597.4300000000001,
+                597.58
+            ]
+        },
+        {
+            "text": "-Kreuzung?",
+            "timestamp": [
+                597.58,
+                603.48
+            ]
+        },
+        {
+            "text": "Helm",
+            "timestamp": [
+                611.78,
+                612.05
+            ]
+        },
+        {
+            "text": "Scherck",
+            "timestamp": [
+                612.05,
+                612.38
+            ]
+        },
+        {
+            "text": "hat",
+            "timestamp": [
+                612.38,
+                612.5799999999999
+            ]
+        },
+        {
+            "text": "vor",
+            "timestamp": [
+                612.5799999999999,
+                612.75
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                612.75,
+                612.91
+            ]
+        },
+        {
+            "text": "Leg.",
+            "timestamp": [
+                612.91,
+                615.0799999999999
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                619.02,
+                619.35
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                619.35,
+                619.59
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                619.59,
+                619.78
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                619.78,
+                619.95
+            ]
+        },
+        {
+            "text": "T",
+            "timestamp": [
+                619.95,
+                620.0400000000001
+            ]
+        },
+        {
+            "text": "-Kreuzung",
+            "timestamp": [
+                620.0400000000001,
+                620.84
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                620.88,
+                621.4200000000001
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                621.4200000000001,
+                621.5600000000001
+            ]
+        },
+        {
+            "text": "dann",
+            "timestamp": [
+                621.5600000000001,
+                621.7
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                621.7,
+                621.9
+            ]
+        },
+        {
+            "text": "rechts",
+            "timestamp": [
+                621.9,
+                622.21
+            ]
+        },
+        {
+            "text": "halten.",
+            "timestamp": [
+                622.21,
+                629.88
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                731.5600000000001,
+                739.1800000000001
+            ]
+        },
+        {
+            "text": "Genau,",
+            "timestamp": [
+                745.76,
+                746.36
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                747.6,
+                747.87
+            ]
+        },
+        {
+            "text": "dort",
+            "timestamp": [
+                747.87,
+                748.03
+            ]
+        },
+        {
+            "text": "dann",
+            "timestamp": [
+                748.03,
+                748.22
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                748.22,
+                748.51
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                748.51,
+                748.64
+            ]
+        },
+        {
+            "text": "rechts",
+            "timestamp": [
+                748.64,
+                748.87
+            ]
+        },
+        {
+            "text": "halten.",
+            "timestamp": [
+                748.87,
+                751.28
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                815.46,
+                815.9
+            ]
+        },
+        {
+            "text": "es",
+            "timestamp": [
+                815.9,
+                816.02
+            ]
+        },
+        {
+            "text": "war",
+            "timestamp": [
+                816.02,
+                816.12
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                816.12,
+                816.31
+            ]
+        },
+        {
+            "text": "viel",
+            "timestamp": [
+                816.31,
+                816.5
+            ]
+        },
+        {
+            "text": "Information",
+            "timestamp": [
+                816.5,
+                816.89
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                816.89,
+                817.09
+            ]
+        },
+        {
+            "text": "einmal,",
+            "timestamp": [
+                817.09,
+                817.48
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                817.48,
+                817.72
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                817.72,
+                817.87
+            ]
+        },
+        {
+            "text": "weiß",
+            "timestamp": [
+                817.87,
+                818.07
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                818.07,
+                818.16
+            ]
+        },
+        {
+            "text": "jeden",
+            "timestamp": [
+                818.16,
+                818.31
+            ]
+        },
+        {
+            "text": "Fall,",
+            "timestamp": [
+                818.31,
+                818.47
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                818.47,
+                818.59
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                818.59,
+                818.71
+            ]
+        },
+        {
+            "text": "ersten",
+            "timestamp": [
+                818.71,
+                818.93
+            ]
+        },
+        {
+            "text": "Laterne",
+            "timestamp": [
+                818.93,
+                819.42
+            ]
+        },
+        {
+            "text": "einfach",
+            "timestamp": [
+                819.42,
+                819.68
+            ]
+        },
+        {
+            "text": "ganz",
+            "timestamp": [
+                819.68,
+                819.9
+            ]
+        },
+        {
+            "text": "kre",
+            "timestamp": [
+                819.9,
+                820.09
+            ]
+        },
+        {
+            "text": "ganz",
+            "timestamp": [
+                820.09,
+                820.36
+            ]
+        },
+        {
+            "text": "sehr",
+            "timestamp": [
+                820.38,
+                820.56
+            ]
+        },
+        {
+            "text": "geradeaus,",
+            "timestamp": [
+                820.56,
+                821.18
+            ]
+        },
+        {
+            "text": "dann",
+            "timestamp": [
+                821.48,
+                821.72
+            ]
+        },
+        {
+            "text": "Z",
+            "timestamp": [
+                821.72,
+                821.86
+            ]
+        },
+        {
+            "text": "T",
+            "timestamp": [
+                821.86,
+                822.04
+            ]
+        },
+        {
+            "text": "Kreuzung,",
+            "timestamp": [
+                822.04,
+                822.43
+            ]
+        },
+        {
+            "text": "dort",
+            "timestamp": [
+                822.43,
+                822.59
+            ]
+        },
+        {
+            "text": "dann",
+            "timestamp": [
+                822.59,
+                822.77
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                822.77,
+                823.18
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                823.44,
+                823.66
+            ]
+        },
+        {
+            "text": "dann",
+            "timestamp": [
+                823.66,
+                823.86
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                823.86,
+                824.18
+            ]
+        },
+        {
+            "text": "rechts",
+            "timestamp": [
+                824.18,
+                824.6
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                824.88,
+                825.23
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                825.23,
+                825.5
+            ]
+        },
+        {
+            "text": "rechts.",
+            "timestamp": [
+                825.5,
+                826.04
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                830.5,
+                831.03
+            ]
+        },
+        {
+            "text": "höre",
+            "timestamp": [
+                831.03,
+                831.25
+            ]
+        },
+        {
+            "text": "gerade",
+            "timestamp": [
+                831.25,
+                831.45
+            ]
+        },
+        {
+            "text": "vor",
+            "timestamp": [
+                831.45,
+                831.6
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                831.6,
+                831.75
+            ]
+        },
+        {
+            "text": "Leg.",
+            "timestamp": [
+                831.75,
+                832.1
+            ]
+        },
+        {
+            "text": "Kannst",
+            "timestamp": [
+                832.84,
+                833.16
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                833.16,
+                833.22
+            ]
+        },
+        {
+            "text": "mal",
+            "timestamp": [
+                833.22,
+                833.35
+            ]
+        },
+        {
+            "text": "langsam",
+            "timestamp": [
+                833.35,
+                833.6
+            ]
+        },
+        {
+            "text": "erklären?",
+            "timestamp": [
+                833.6,
+                835.88
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                846.46,
+                846.85
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                846.85,
+                847.09
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                847.09,
+                847.43
+            ]
+        },
+        {
+            "text": "rechts,",
+            "timestamp": [
+                847.43,
+                848.06
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                848.14,
+                848.43
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                848.43,
+                848.65
+            ]
+        },
+        {
+            "text": "links.",
+            "timestamp": [
+                848.65,
+                850.88
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                882.0600000000001,
+                882.5600000000001
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                882.58,
+                882.9200000000001
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                883.02,
+                883.1800000000001
+            ]
+        },
+        {
+            "text": "lassen",
+            "timestamp": [
+                883.1800000000001,
+                883.36
+            ]
+        },
+        {
+            "text": "wir",
+            "timestamp": [
+                883.36,
+                883.44
+            ]
+        },
+        {
+            "text": "im",
+            "timestamp": [
+                883.44,
+                883.52
+            ]
+        },
+        {
+            "text": "Menü",
+            "timestamp": [
+                883.52,
+                883.75
+            ]
+        },
+        {
+            "text": "sein.",
+            "timestamp": [
+                883.75,
+                886.08
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                909.1400000000001,
+                909.6
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                909.6800000000001,
+                910.12
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                910.6800000000001,
+                911.0400000000001
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                911.98,
+                912.1700000000001
+            ]
+        },
+        {
+            "text": "muss",
+            "timestamp": [
+                912.1700000000001,
+                912.33
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                912.33,
+                912.45
+            ]
+        },
+        {
+            "text": "nur",
+            "timestamp": [
+                912.45,
+                912.5400000000001
+            ]
+        },
+        {
+            "text": "noch",
+            "timestamp": [
+                912.5400000000001,
+                912.71
+            ]
+        },
+        {
+            "text": "schnell",
+            "timestamp": [
+                912.71,
+                913.0200000000001
+            ]
+        },
+        {
+            "text": "merken,",
+            "timestamp": [
+                913.0200000000001,
+                913.58
+            ]
+        },
+        {
+            "text": "es",
+            "timestamp": [
+                914.0200000000001,
+                914.3000000000001
+            ]
+        },
+        {
+            "text": "sind",
+            "timestamp": [
+                914.36,
+                914.61
+            ]
+        },
+        {
+            "text": "viele",
+            "timestamp": [
+                914.61,
+                914.82
+            ]
+        },
+        {
+            "text": "Informationen",
+            "timestamp": [
+                914.82,
+                915.24
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                915.24,
+                915.37
+            ]
+        },
+        {
+            "text": "einmal,",
+            "timestamp": [
+                915.37,
+                915.82
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                915.84,
+                916.0300000000001
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                916.0300000000001,
+                916.1
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                916.1,
+                916.22
+            ]
+        },
+        {
+            "text": "eine",
+            "timestamp": [
+                916.22,
+                916.3900000000001
+            ]
+        },
+        {
+            "text": "grobe",
+            "timestamp": [
+                916.3900000000001,
+                916.7900000000001
+            ]
+        },
+        {
+            "text": "Vorstellung.",
+            "timestamp": [
+                916.7900000000001,
+                917.5
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                921.86,
+                922.48
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                923.12,
+                923.2800000000001
+            ]
+        },
+        {
+            "text": "soll",
+            "timestamp": [
+                923.2800000000001,
+                923.4000000000001
+            ]
+        },
+        {
+            "text": "ich,",
+            "timestamp": [
+                923.4000000000001,
+                923.57
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                923.57,
+                923.7800000000001
+            ]
+        },
+        {
+            "text": "sollen",
+            "timestamp": [
+                923.7800000000001,
+                923.98
+            ]
+        },
+        {
+            "text": "wir",
+            "timestamp": [
+                923.98,
+                924.07
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                924.07,
+                924.25
+            ]
+        },
+        {
+            "text": "machen?",
+            "timestamp": [
+                924.25,
+                926.58
+            ]
+        },
+        {
+            "text": "An",
+            "timestamp": [
+                944.92,
+                945.18
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                945.18,
+                947.32
+            ]
+        },
+        {
+            "text": "Kirche",
+            "timestamp": [
+                947.32,
+                947.66
+            ]
+        },
+        {
+            "text": "rechts",
+            "timestamp": [
+                947.66,
+                947.93
+            ]
+        },
+        {
+            "text": "vorbei,",
+            "timestamp": [
+                947.93,
+                948.24
+            ]
+        },
+        {
+            "text": "oder?",
+            "timestamp": [
+                948.24,
+                948.47
+            ]
+        },
+        {
+            "text": "Oder",
+            "timestamp": [
+                948.47,
+                948.7
+            ]
+        },
+        {
+            "text": "links?",
+            "timestamp": [
+                948.88,
+                953.58
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                989.46,
+                996.52
+            ]
+        },
+        {
+            "text": "kannst",
+            "timestamp": [
+                996.52,
+                996.72
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                996.72,
+                996.82
+            ]
+        },
+        {
+            "text": "nur",
+            "timestamp": [
+                996.82,
+                996.98
+            ]
+        },
+        {
+            "text": "noch",
+            "timestamp": [
+                996.98,
+                997.19
+            ]
+        },
+        {
+            "text": "kurz",
+            "timestamp": [
+                997.19,
+                997.42
+            ]
+        },
+        {
+            "text": "nach",
+            "timestamp": [
+                997.42,
+                997.57
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                997.57,
+                997.69
+            ]
+        },
+        {
+            "text": "T",
+            "timestamp": [
+                997.69,
+                997.74
+            ]
+        },
+        {
+            "text": "-Kreuzung",
+            "timestamp": [
+                997.74,
+                998.25
+            ]
+        },
+        {
+            "text": "kurz",
+            "timestamp": [
+                998.25,
+                998.46
+            ]
+        },
+        {
+            "text": "beschreiben,",
+            "timestamp": [
+                998.46,
+                999.08
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                999.08,
+                999.41
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                999.41,
+                999.92
+            ]
+        },
+        {
+            "text": "rechts,",
+            "timestamp": [
+                1000.04,
+                1000.51
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                1000.51,
+                1000.84
+            ]
+        },
+        {
+            "text": "links,",
+            "timestamp": [
+                1000.84,
+                1001.11
+            ]
+        },
+        {
+            "text": "links.",
+            "timestamp": [
+                1001.11,
+                1003.38
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                1007.4,
+                1009.88
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                1034.36,
+                1042.08
+            ]
+        },
+        {
+            "text": "er",
+            "timestamp": [
+                1046.3400000000001,
+                1048.68
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                1078.98,
+                1081.3799999999999
+            ]
+        },
+        {
+            "text": "Bisschen",
+            "timestamp": [
+                1098.26,
+                1101.62
+            ]
+        },
+        {
+            "text": "schwer",
+            "timestamp": [
+                1101.62,
+                1101.99
+            ]
+        },
+        {
+            "text": "auszuwählen.",
+            "timestamp": [
+                1101.99,
+                1102.78
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                1105.1599999999999,
+                1105.68
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                1107.12,
+                1108.54
+            ]
+        },
+        {
+            "text": "Dankschön.",
+            "timestamp": [
+                1110.6599999999999,
+                1113.28
+            ]
+        },
+        {
+            "text": "Ja.",
+            "timestamp": [
+                1133.1200000000001,
+                1135.38
+            ]
+        },
+        {
+            "text": "[UM].",
+            "timestamp": [
+                1596.84,
+                1599.58
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                1731.64,
+                1732.01
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                1732.01,
+                1732.21
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1732.21,
+                1732.3
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                1732.3,
+                1732.38
+            ]
+        },
+        {
+            "text": "mich",
+            "timestamp": [
+                1732.38,
+                1732.53
+            ]
+        },
+        {
+            "text": "verlaufen,",
+            "timestamp": [
+                1732.53,
+                1733.16
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                1733.9,
+                1734.29
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1734.29,
+                1734.54
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                1734.56,
+                1734.91
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1734.91,
+                1735.0900000000001
+            ]
+        },
+        {
+            "text": "weiß",
+            "timestamp": [
+                1735.0900000000001,
+                1735.45
+            ]
+        },
+        {
+            "text": "ungefähr,",
+            "timestamp": [
+                1735.45,
+                1735.9
+            ]
+        },
+        {
+            "text": "wo",
+            "timestamp": [
+                1735.9,
+                1736.04
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                1736.04,
+                1736.28
+            ]
+        },
+        {
+            "text": "ist.",
+            "timestamp": [
+                1736.28,
+                1736.72
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                1740.02,
+                1740.3400000000001
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1740.3400000000001,
+                1740.66
+            ]
+        },
+        {
+            "text": "laufe",
+            "timestamp": [
+                1740.78,
+                1741.1000000000001
+            ]
+        },
+        {
+            "text": "da",
+            "timestamp": [
+                1741.1000000000001,
+                1741.23
+            ]
+        },
+        {
+            "text": "mal",
+            "timestamp": [
+                1741.23,
+                1741.46
+            ]
+        },
+        {
+            "text": "hin.",
+            "timestamp": [
+                1741.46,
+                1743.68
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                1790.6,
+                1791.33
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                1791.33,
+                1791.53
+            ]
+        },
+        {
+            "text": "schon",
+            "timestamp": [
+                1791.53,
+                1791.76
+            ]
+        },
+        {
+            "text": "fertig,",
+            "timestamp": [
+                1791.76,
+                1792.15
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                1792.15,
+                1792.3
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1792.3,
+                1792.41
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                1792.41,
+                1792.64
+            ]
+        },
+        {
+            "text": "schon",
+            "timestamp": [
+                1792.64,
+                1792.87
+            ]
+        },
+        {
+            "text": "falsch.",
+            "timestamp": [
+                1792.87,
+                1795.18
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                1799.86,
+                1806.24
+            ]
+        }
+    ]
+}

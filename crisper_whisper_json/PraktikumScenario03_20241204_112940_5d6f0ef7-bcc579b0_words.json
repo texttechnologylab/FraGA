@@ -1,0 +1,404 @@
+{
+    "text": " Okay. Okay. Mm hmm. Bei mir ist diese Fenster in. [UM] yeah. Okay, ja, danke schön. Yeah. Yeah. Okay. Kannst du mir sagen, wie viele Mal muss ich links? Okay. Okay. Danke schön. Okay. Oh no. Wie soll das Ende aussehen? Okay, denn ich glaube, habe ich keine Ahnung, wo ich bin. Ja, glaube ich. [UM]-hmm.",
+    "words": [
+        {
+            "text": "Okay.",
+            "timestamp": [
+                21.82,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                30.32,
+                30.96
+            ]
+        },
+        {
+            "text": "Mm",
+            "timestamp": [
+                34.62,
+                34.81
+            ]
+        },
+        {
+            "text": "hmm.",
+            "timestamp": [
+                34.81,
+                36.980000000000004
+            ]
+        },
+        {
+            "text": "Bei",
+            "timestamp": [
+                472.32,
+                473.65000000000003
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                473.65000000000003,
+                474.05
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                474.05,
+                474.29
+            ]
+        },
+        {
+            "text": "diese",
+            "timestamp": [
+                474.29,
+                474.8
+            ]
+        },
+        {
+            "text": "Fenster",
+            "timestamp": [
+                474.98,
+                475.68
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                475.74,
+                479.18
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                487.6,
+                488.04
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                488.92,
+                492.48
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                505.32,
+                513.34
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                513.6800000000001,
+                513.98
+            ]
+        },
+        {
+            "text": "danke",
+            "timestamp": [
+                514.14,
+                514.4300000000001
+            ]
+        },
+        {
+            "text": "schön.",
+            "timestamp": [
+                514.4300000000001,
+                516.28
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                532.8,
+                535.68
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                551.52,
+                555.38
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                580.92,
+                583.38
+            ]
+        },
+        {
+            "text": "Kannst",
+            "timestamp": [
+                708.5600000000001,
+                710.8000000000001
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                710.8000000000001,
+                710.9200000000001
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                710.9200000000001,
+                711.07
+            ]
+        },
+        {
+            "text": "sagen,",
+            "timestamp": [
+                711.07,
+                711.5400000000001
+            ]
+        },
+        {
+            "text": "wie",
+            "timestamp": [
+                711.62,
+                711.83
+            ]
+        },
+        {
+            "text": "viele",
+            "timestamp": [
+                711.83,
+                712.03
+            ]
+        },
+        {
+            "text": "Mal",
+            "timestamp": [
+                712.03,
+                712.5
+            ]
+        },
+        {
+            "text": "muss",
+            "timestamp": [
+                713.28,
+                713.5600000000001
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                713.5600000000001,
+                713.77
+            ]
+        },
+        {
+            "text": "links?",
+            "timestamp": [
+                713.77,
+                716.1800000000001
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                731.62,
+                734.08
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                772.02,
+                778.5799999999999
+            ]
+        },
+        {
+            "text": "Danke",
+            "timestamp": [
+                786.38,
+                786.68
+            ]
+        },
+        {
+            "text": "schön.",
+            "timestamp": [
+                786.68,
+                788.98
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                812.94,
+                815.98
+            ]
+        },
+        {
+            "text": "Oh",
+            "timestamp": [
+                819.12,
+                819.4300000000001
+            ]
+        },
+        {
+            "text": "no.",
+            "timestamp": [
+                819.4300000000001,
+                821.58
+            ]
+        },
+        {
+            "text": "Wie",
+            "timestamp": [
+                1183.12,
+                1184.78
+            ]
+        },
+        {
+            "text": "soll",
+            "timestamp": [
+                1184.8,
+                1185.1599999999999
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                1185.2199999999998,
+                1185.6999999999998
+            ]
+        },
+        {
+            "text": "Ende",
+            "timestamp": [
+                1185.7199999999998,
+                1186.1399999999999
+            ]
+        },
+        {
+            "text": "aussehen?",
+            "timestamp": [
+                1186.1399999999999,
+                1188.58
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                1194.52,
+                1194.96
+            ]
+        },
+        {
+            "text": "denn",
+            "timestamp": [
+                1195.72,
+                1195.99
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1195.99,
+                1196.13
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                1196.13,
+                1196.5
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                1197.68,
+                1198.0
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1198.0,
+                1198.13
+            ]
+        },
+        {
+            "text": "keine",
+            "timestamp": [
+                1198.13,
+                1198.4
+            ]
+        },
+        {
+            "text": "Ahnung,",
+            "timestamp": [
+                1198.4,
+                1198.74
+            ]
+        },
+        {
+            "text": "wo",
+            "timestamp": [
+                1198.98,
+                1199.3200000000002
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1199.3200000000002,
+                1199.5
+            ]
+        },
+        {
+            "text": "bin.",
+            "timestamp": [
+                1199.5,
+                1199.8400000000001
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                1201.8200000000002,
+                1202.24
+            ]
+        },
+        {
+            "text": "glaube",
+            "timestamp": [
+                1202.3200000000002,
+                1202.5800000000002
+            ]
+        },
+        {
+            "text": "ich.",
+            "timestamp": [
+                1202.5800000000002,
+                1204.18
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                1207.26,
+                1207.3799999999999
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                1207.3799999999999,
+                1209.58
+            ]
+        }
+    ]
+}

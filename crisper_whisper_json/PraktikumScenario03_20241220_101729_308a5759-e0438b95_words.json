@@ -1,0 +1,54 @@
+{
+    "text": " Ja, da ist keine Version vorgeführt. ja",
+    "words": [
+        {
+            "text": "Ja,",
+            "timestamp": [
+                46.04,
+                46.300000000000004
+            ]
+        },
+        {
+            "text": "da",
+            "timestamp": [
+                46.82,
+                50.56
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                50.56,
+                50.75
+            ]
+        },
+        {
+            "text": "keine",
+            "timestamp": [
+                50.75,
+                50.94
+            ]
+        },
+        {
+            "text": "Version",
+            "timestamp": [
+                50.94,
+                51.230000000000004
+            ]
+        },
+        {
+            "text": "vorgeführt.",
+            "timestamp": [
+                51.230000000000004,
+                53.68
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                58.8,
+                59.879999999999995
+            ]
+        }
+    ]
+}

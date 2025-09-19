@@ -1,0 +1,460 @@
+{
+    "text": " Personenzahl, Rollenbeschreibung. Yeah. Yeah. Ich habe den wirklichen Fastpack wieder vergessen. Ah, ich bin bei den Knoten. Die Bäume! Oh mein Gott! Ich habe mich verloffen. Yeah. Keine Ahnung. Ich war gerade bei den Kapellen und der Kirche. Ja. Oh my God. Ah, okay. Kann man sprinten? Kein Eis, Mann! Hmm. Bin beim Springbrunnen. Ich glaube, die Springen war das Ziel. Yeah. Oh, yeah, okay.",
+    "words": [
+        {
+            "text": "Personenzahl,",
+            "timestamp": [
+                -0.56,
+                0.26000000000000023
+            ]
+        },
+        {
+            "text": "Rollenbeschreibung.",
+            "timestamp": [
+                1.6400000000000001,
+                4.58
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                9.84,
+                12.08
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                27.26,
+                29.580000000000002
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                40.68,
+                42.28
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                42.28,
+                42.43
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                42.43,
+                42.54
+            ]
+        },
+        {
+            "text": "wirklichen",
+            "timestamp": [
+                42.54,
+                42.769999999999996
+            ]
+        },
+        {
+            "text": "Fastpack",
+            "timestamp": [
+                42.769999999999996,
+                43.06999999999999
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                43.06999999999999,
+                43.379999999999995
+            ]
+        },
+        {
+            "text": "vergessen.",
+            "timestamp": [
+                43.44,
+                47.98
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                57.02,
+                57.260000000000005
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                57.260000000000005,
+                57.4
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                57.4,
+                57.53
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                57.53,
+                57.660000000000004
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                57.660000000000004,
+                57.79
+            ]
+        },
+        {
+            "text": "Knoten.",
+            "timestamp": [
+                57.79,
+                65.88
+            ]
+        },
+        {
+            "text": "Die",
+            "timestamp": [
+                73.74,
+                74.11
+            ]
+        },
+        {
+            "text": "Bäume!",
+            "timestamp": [
+                74.11,
+                74.56
+            ]
+        },
+        {
+            "text": "Oh",
+            "timestamp": [
+                74.6,
+                74.8
+            ]
+        },
+        {
+            "text": "mein",
+            "timestamp": [
+                74.8,
+                74.92
+            ]
+        },
+        {
+            "text": "Gott!",
+            "timestamp": [
+                74.92,
+                76.88
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                147.5,
+                147.76
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                147.96,
+                148.12
+            ]
+        },
+        {
+            "text": "mich",
+            "timestamp": [
+                148.12,
+                148.25
+            ]
+        },
+        {
+            "text": "verloffen.",
+            "timestamp": [
+                148.25,
+                152.88
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                158.98,
+                161.68
+            ]
+        },
+        {
+            "text": "Keine",
+            "timestamp": [
+                359.42,
+                359.76
+            ]
+        },
+        {
+            "text": "Ahnung.",
+            "timestamp": [
+                359.76,
+                360.09999999999997
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                360.56,
+                361.09
+            ]
+        },
+        {
+            "text": "war",
+            "timestamp": [
+                361.09,
+                361.25
+            ]
+        },
+        {
+            "text": "gerade",
+            "timestamp": [
+                361.25,
+                361.45
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                361.45,
+                361.61
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                361.61,
+                361.75
+            ]
+        },
+        {
+            "text": "Kapellen",
+            "timestamp": [
+                361.75,
+                362.15
+            ]
+        },
+        {
+            "text": "und",
+            "timestamp": [
+                362.15,
+                362.26
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                362.26,
+                362.39
+            ]
+        },
+        {
+            "text": "Kirche.",
+            "timestamp": [
+                362.39,
+                362.86
+            ]
+        },
+        {
+            "text": "Ja.",
+            "timestamp": [
+                363.8,
+                366.18
+            ]
+        },
+        {
+            "text": "Oh",
+            "timestamp": [
+                375.24,
+                379.37
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                379.37,
+                379.58
+            ]
+        },
+        {
+            "text": "God.",
+            "timestamp": [
+                379.58,
+                383.28
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                414.48,
+                414.96
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                415.1,
+                417.28
+            ]
+        },
+        {
+            "text": "Kann",
+            "timestamp": [
+                431.5,
+                431.70000000000005
+            ]
+        },
+        {
+            "text": "man",
+            "timestamp": [
+                431.70000000000005,
+                431.86
+            ]
+        },
+        {
+            "text": "sprinten?",
+            "timestamp": [
+                431.86,
+                434.48
+            ]
+        },
+        {
+            "text": "Kein",
+            "timestamp": [
+                512.66,
+                513.04
+            ]
+        },
+        {
+            "text": "Eis,",
+            "timestamp": [
+                513.04,
+                513.4399999999999
+            ]
+        },
+        {
+            "text": "Mann!",
+            "timestamp": [
+                513.4599999999999,
+                515.68
+            ]
+        },
+        {
+            "text": "Hmm.",
+            "timestamp": [
+                533.48,
+                536.28
+            ]
+        },
+        {
+            "text": "Bin",
+            "timestamp": [
+                633.5,
+                633.77
+            ]
+        },
+        {
+            "text": "beim",
+            "timestamp": [
+                633.77,
+                634.01
+            ]
+        },
+        {
+            "text": "Springbrunnen.",
+            "timestamp": [
+                634.01,
+                644.6800000000001
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                652.28,
+                654.64
+            ]
+        },
+        {
+            "text": "glaube,",
+            "timestamp": [
+                654.64,
+                654.79
+            ]
+        },
+        {
+            "text": "die",
+            "timestamp": [
+                654.79,
+                654.9
+            ]
+        },
+        {
+            "text": "Springen",
+            "timestamp": [
+                654.9,
+                655.24
+            ]
+        },
+        {
+            "text": "war",
+            "timestamp": [
+                655.24,
+                655.49
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                655.49,
+                655.78
+            ]
+        },
+        {
+            "text": "Ziel.",
+            "timestamp": [
+                655.9599999999999,
+                658.68
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                668.62,
+                668.74
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                671.6800000000001,
+                675.88
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                676.0400000000001,
+                676.32
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                676.36,
+                677.9200000000001
+            ]
+        }
+    ]
+}

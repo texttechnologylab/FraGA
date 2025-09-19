@@ -1,0 +1,75 @@
+{
+    "text": " Now Pekka. He. Hey, should I give four sets and?",
+    "words": [
+        {
+            "text": "Now",
+            "timestamp": [
+                13.479999999999999,
+                15.98
+            ]
+        },
+        {
+            "text": "Pekka.",
+            "timestamp": [
+                42.64,
+                45.58
+            ]
+        },
+        {
+            "text": "He.",
+            "timestamp": [
+                97.39999999999999,
+                99.78
+            ]
+        },
+        {
+            "text": "Hey,",
+            "timestamp": [
+                137.08,
+                137.47
+            ]
+        },
+        {
+            "text": "should",
+            "timestamp": [
+                137.47,
+                137.69
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                137.69,
+                137.8
+            ]
+        },
+        {
+            "text": "give",
+            "timestamp": [
+                137.8,
+                138.1
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                138.22,
+                138.44
+            ]
+        },
+        {
+            "text": "sets",
+            "timestamp": [
+                138.52,
+                138.96
+            ]
+        },
+        {
+            "text": "and?",
+            "timestamp": [
+                138.96,
+                139.24
+            ]
+        }
+    ]
+}

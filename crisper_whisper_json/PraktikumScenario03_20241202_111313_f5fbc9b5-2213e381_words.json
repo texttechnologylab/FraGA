@@ -1,0 +1,1314 @@
+{
+    "text": " [UM]-hmm. Hmm? [UM]-hmm. Also immer links abbiegen, wenn man abbiegen muss. Ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, ja, Okay. Okay, yeah, yeah. Ja, alles klar, lange weg. Yeah. [UH]-huh. Nee, alles gut. Ja, also ich bin angekommen. [UM]-hmm, yeah, yeah, [UM]-hmm.",
+    "words": [
+        {
+            "text": "[UM]",
+            "timestamp": [
+                10.66,
+                10.700000000000001
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                10.700000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "Hmm?",
+            "timestamp": [
+                492.64,
+                495.47999999999996
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                503.44,
+                503.64000000000004
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                503.64000000000004,
+                505.78000000000003
+            ]
+        },
+        {
+            "text": "Also",
+            "timestamp": [
+                664.64,
+                667.06
+            ]
+        },
+        {
+            "text": "immer",
+            "timestamp": [
+                667.12,
+                667.9
+            ]
+        },
+        {
+            "text": "links",
+            "timestamp": [
+                668.4399999999999,
+                668.9599999999999
+            ]
+        },
+        {
+            "text": "abbiegen,",
+            "timestamp": [
+                668.98,
+                669.54
+            ]
+        },
+        {
+            "text": "wenn",
+            "timestamp": [
+                669.54,
+                669.6899999999999
+            ]
+        },
+        {
+            "text": "man",
+            "timestamp": [
+                669.6899999999999,
+                669.8299999999999
+            ]
+        },
+        {
+            "text": "abbiegen",
+            "timestamp": [
+                669.8299999999999,
+                670.22
+            ]
+        },
+        {
+            "text": "muss.",
+            "timestamp": [
+                670.22,
+                672.38
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                677.1999999999999,
+                677.48
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.5799999999999,
+                680.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.67,
+                680.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.7099999999999,
+                680.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.75,
+                680.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.79,
+                680.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.8299999999999,
+                680.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.87,
+                680.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.91,
+                680.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.9499999999999,
+                680.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                680.99,
+                681.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.03,
+                681.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.0699999999999,
+                681.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.11,
+                681.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.15,
+                681.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.1899999999999,
+                681.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.23,
+                681.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.27,
+                681.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.31,
+                681.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.35,
+                681.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.39,
+                681.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.43,
+                681.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.47,
+                681.51
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.51,
+                681.55
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.55,
+                681.59
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.59,
+                681.63
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.63,
+                681.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.67,
+                681.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.7099999999999,
+                681.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.75,
+                681.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.79,
+                681.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.8299999999999,
+                681.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.87,
+                681.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.91,
+                681.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.9499999999999,
+                681.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                681.99,
+                682.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.03,
+                682.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.0699999999999,
+                682.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.11,
+                682.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.15,
+                682.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.1899999999999,
+                682.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.23,
+                682.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.27,
+                682.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.31,
+                682.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.35,
+                682.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.39,
+                682.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.43,
+                682.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.47,
+                682.51
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.51,
+                682.55
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.55,
+                682.59
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.59,
+                682.63
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.63,
+                682.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.67,
+                682.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.7099999999999,
+                682.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.75,
+                682.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.79,
+                682.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.8299999999999,
+                682.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.87,
+                682.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.91,
+                682.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.9499999999999,
+                682.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                682.99,
+                683.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.03,
+                683.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.0699999999999,
+                683.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.11,
+                683.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.15,
+                683.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.1899999999999,
+                683.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.23,
+                683.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.27,
+                683.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.31,
+                683.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.35,
+                683.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.39,
+                683.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.43,
+                683.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.47,
+                683.51
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.51,
+                683.55
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.55,
+                683.59
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.59,
+                683.63
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.63,
+                683.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.67,
+                683.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.7099999999999,
+                683.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.75,
+                683.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.79,
+                683.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.8299999999999,
+                683.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.87,
+                683.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.91,
+                683.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.9499999999999,
+                683.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                683.99,
+                684.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.03,
+                684.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.0699999999999,
+                684.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.11,
+                684.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.15,
+                684.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.1899999999999,
+                684.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.23,
+                684.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.27,
+                684.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.31,
+                684.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.35,
+                684.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.39,
+                684.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.43,
+                684.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.47,
+                684.51
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.51,
+                684.55
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.55,
+                684.59
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.59,
+                684.63
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.63,
+                684.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.67,
+                684.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.7099999999999,
+                684.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.75,
+                684.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.79,
+                684.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.8299999999999,
+                684.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.87,
+                684.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.91,
+                684.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.9499999999999,
+                684.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                684.99,
+                685.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.03,
+                685.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.0699999999999,
+                685.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.11,
+                685.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.15,
+                685.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.1899999999999,
+                685.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.23,
+                685.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.27,
+                685.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.31,
+                685.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.35,
+                685.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.39,
+                685.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.43,
+                685.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.47,
+                685.51
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.51,
+                685.55
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.55,
+                685.59
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.59,
+                685.63
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.63,
+                685.67
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.67,
+                685.7099999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.7099999999999,
+                685.75
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.75,
+                685.79
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.79,
+                685.8299999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.8299999999999,
+                685.87
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.87,
+                685.91
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.91,
+                685.9499999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.9499999999999,
+                685.99
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                685.99,
+                686.03
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.03,
+                686.0699999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.0699999999999,
+                686.11
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.11,
+                686.15
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.15,
+                686.1899999999999
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.1899999999999,
+                686.23
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.23,
+                686.27
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.27,
+                686.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.31,
+                686.35
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.35,
+                686.39
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.39,
+                686.43
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.43,
+                686.47
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                686.47,
+                686.47
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                690.8599999999999,
+                693.4799999999999
+            ]
+        },
+        {
+            "text": "Okay,",
+            "timestamp": [
+                696.92,
+                697.62
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                697.66,
+                698.02
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                698.14,
+                699.88
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                716.0400000000001,
+                716.4
+            ]
+        },
+        {
+            "text": "alles",
+            "timestamp": [
+                716.48,
+                716.7900000000001
+            ]
+        },
+        {
+            "text": "klar,",
+            "timestamp": [
+                716.7900000000001,
+                717.12
+            ]
+        },
+        {
+            "text": "lange",
+            "timestamp": [
+                717.38,
+                717.76
+            ]
+        },
+        {
+            "text": "weg.",
+            "timestamp": [
+                717.76,
+                719.88
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                726.1,
+                732.58
+            ]
+        },
+        {
+            "text": "[UH]",
+            "timestamp": [
+                766.0,
+                766.1800000000001
+            ]
+        },
+        {
+            "text": "-huh.",
+            "timestamp": [
+                766.1800000000001,
+                768.38
+            ]
+        },
+        {
+            "text": "Nee,",
+            "timestamp": [
+                1051.18,
+                1051.5800000000002
+            ]
+        },
+        {
+            "text": "alles",
+            "timestamp": [
+                1051.5800000000002,
+                1051.9
+            ]
+        },
+        {
+            "text": "gut.",
+            "timestamp": [
+                1051.9,
+                1054.0800000000002
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                1230.04,
+                1230.52
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                1230.66,
+                1230.95
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                1230.95,
+                1231.09
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                1231.09,
+                1231.42
+            ]
+        },
+        {
+            "text": "angekommen.",
+            "timestamp": [
+                1231.7,
+                1236.68
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                1240.24,
+                1240.48
+            ]
+        },
+        {
+            "text": "-hmm,",
+            "timestamp": [
+                1240.48,
+                1240.88
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                1241.74,
+                1242.0600000000002
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                1244.76,
+                1245.22
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                1247.2800000000002,
+                1247.46
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                1247.46,
+                1250.4
+            ]
+        }
+    ]
+}

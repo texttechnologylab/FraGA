@@ -1,0 +1,131 @@
+{
+    "text": " Kann ich auf ready gehen oder ach so, oder ich bin auf ready, ja. Ja. Nö. [UM]-hmm.",
+    "words": [
+        {
+            "text": "Kann",
+            "timestamp": [
+                8.98,
+                9.21
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                9.21,
+                9.35
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                9.35,
+                9.57
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                9.57,
+                9.899999999999999
+            ]
+        },
+        {
+            "text": "gehen",
+            "timestamp": [
+                9.899999999999999,
+                10.16
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                10.16,
+                10.52
+            ]
+        },
+        {
+            "text": "ach",
+            "timestamp": [
+                11.66,
+                11.93
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                11.93,
+                12.07
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                12.07,
+                12.48
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                13.26,
+                14.469999999999999
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                14.469999999999999,
+                14.59
+            ]
+        },
+        {
+            "text": "auf",
+            "timestamp": [
+                14.59,
+                14.709999999999999
+            ]
+        },
+        {
+            "text": "ready,",
+            "timestamp": [
+                14.709999999999999,
+                14.92
+            ]
+        },
+        {
+            "text": "ja.",
+            "timestamp": [
+                14.92,
+                17.08
+            ]
+        },
+        {
+            "text": "Ja.",
+            "timestamp": [
+                47.1,
+                49.38
+            ]
+        },
+        {
+            "text": "Nö.",
+            "timestamp": [
+                58.82,
+                64.28
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                75.4,
+                76.26
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                76.26,
+                81.9
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "text": " Ah! Bei mir steht nur „Select Row“, oder s ist bei mir leer, das Feld.",
+    "words": [
+        {
+            "text": "Ah!",
+            "timestamp": [
+                12.98,
+                19.18
+            ]
+        },
+        {
+            "text": "Bei",
+            "timestamp": [
+                32.22,
+                32.39
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                32.39,
+                32.51
+            ]
+        },
+        {
+            "text": "steht",
+            "timestamp": [
+                32.51,
+                32.69
+            ]
+        },
+        {
+            "text": "nur",
+            "timestamp": [
+                32.69,
+                32.83
+            ]
+        },
+        {
+            "text": "„Select",
+            "timestamp": [
+                32.83,
+                33.15
+            ]
+        },
+        {
+            "text": "Row“,",
+            "timestamp": [
+                33.15,
+                33.44
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                33.44,
+                33.73
+            ]
+        },
+        {
+            "text": "s",
+            "timestamp": [
+                33.73,
+                33.919999999999995
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                35.239999999999995,
+                36.019999999999996
+            ]
+        },
+        {
+            "text": "bei",
+            "timestamp": [
+                36.019999999999996,
+                36.169999999999995
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                36.169999999999995,
+                36.309999999999995
+            ]
+        },
+        {
+            "text": "leer,",
+            "timestamp": [
+                36.309999999999995,
+                36.47
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                36.47,
+                36.69
+            ]
+        },
+        {
+            "text": "Feld.",
+            "timestamp": [
+                36.69,
+                38.879999999999995
+            ]
+        }
+    ]
+}

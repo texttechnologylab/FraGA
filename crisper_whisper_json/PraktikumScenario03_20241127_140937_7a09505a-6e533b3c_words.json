@@ -1,0 +1,271 @@
+{
+    "text": " Person zwei bin ich, ne? Red. Reddies angeklickt, aber es geht nicht los. Ah okay, nee, aber ich sehe trotzdem niemanden. Ich auch, aber ohne dich. Ich habe mich gedreht, nee. Jetzt kann ich's wieder nicht anklicken, disconnect.",
+    "words": [
+        {
+            "text": "Person",
+            "timestamp": [
+                -0.76,
+                -0.29000000000000004
+            ]
+        },
+        {
+            "text": "zwei",
+            "timestamp": [
+                -0.29000000000000004,
+                0.06000000000000005
+            ]
+        },
+        {
+            "text": "bin",
+            "timestamp": [
+                0.06000000000000005,
+                0.27
+            ]
+        },
+        {
+            "text": "ich,",
+            "timestamp": [
+                0.27,
+                0.46999999999999975
+            ]
+        },
+        {
+            "text": "ne?",
+            "timestamp": [
+                0.46999999999999975,
+                2.2800000000000002
+            ]
+        },
+        {
+            "text": "Red.",
+            "timestamp": [
+                11.200000000000001,
+                13.48
+            ]
+        },
+        {
+            "text": "Reddies",
+            "timestamp": [
+                17.64,
+                20.779999999999998
+            ]
+        },
+        {
+            "text": "angeklickt,",
+            "timestamp": [
+                20.84,
+                21.599999999999998
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                21.6,
+                21.79
+            ]
+        },
+        {
+            "text": "es",
+            "timestamp": [
+                21.79,
+                21.88
+            ]
+        },
+        {
+            "text": "geht",
+            "timestamp": [
+                21.88,
+                22.049999999999997
+            ]
+        },
+        {
+            "text": "nicht",
+            "timestamp": [
+                22.049999999999997,
+                22.24
+            ]
+        },
+        {
+            "text": "los.",
+            "timestamp": [
+                22.24,
+                22.619999999999997
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                26.339999999999996,
+                26.64
+            ]
+        },
+        {
+            "text": "okay,",
+            "timestamp": [
+                26.64,
+                27.02
+            ]
+        },
+        {
+            "text": "nee,",
+            "timestamp": [
+                28.04,
+                28.279999999999998
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                28.279999999999998,
+                28.41
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                28.41,
+                28.47
+            ]
+        },
+        {
+            "text": "sehe",
+            "timestamp": [
+                28.47,
+                28.61
+            ]
+        },
+        {
+            "text": "trotzdem",
+            "timestamp": [
+                28.61,
+                29.16
+            ]
+        },
+        {
+            "text": "niemanden.",
+            "timestamp": [
+                29.16,
+                29.84
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                32.879999999999995,
+                33.33
+            ]
+        },
+        {
+            "text": "auch,",
+            "timestamp": [
+                33.33,
+                33.56
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                33.56,
+                33.8
+            ]
+        },
+        {
+            "text": "ohne",
+            "timestamp": [
+                33.8,
+                34.06
+            ]
+        },
+        {
+            "text": "dich.",
+            "timestamp": [
+                34.06,
+                34.459999999999994
+            ]
+        },
+        {
+            "text": "Ich",
+            "timestamp": [
+                36.0,
+                37.599999999999994
+            ]
+        },
+        {
+            "text": "habe",
+            "timestamp": [
+                39.120000000000005,
+                39.42
+            ]
+        },
+        {
+            "text": "mich",
+            "timestamp": [
+                39.74,
+                40.019999999999996
+            ]
+        },
+        {
+            "text": "gedreht,",
+            "timestamp": [
+                40.019999999999996,
+                40.68
+            ]
+        },
+        {
+            "text": "nee.",
+            "timestamp": [
+                40.760000000000005,
+                42.480000000000004
+            ]
+        },
+        {
+            "text": "Jetzt",
+            "timestamp": [
+                79.5,
+                79.80999999999999
+            ]
+        },
+        {
+            "text": "kann",
+            "timestamp": [
+                79.80999999999999,
+                79.96
+            ]
+        },
+        {
+            "text": "ich's",
+            "timestamp": [
+                79.96,
+                80.08999999999999
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                80.08999999999999,
+                80.28999999999999
+            ]
+        },
+        {
+            "text": "nicht",
+            "timestamp": [
+                80.28999999999999,
+                80.47
+            ]
+        },
+        {
+            "text": "anklicken,",
+            "timestamp": [
+                80.47,
+                80.96
+            ]
+        },
+        {
+            "text": "disconnect.",
+            "timestamp": [
+                80.97999999999999,
+                85.6
+            ]
+        }
+    ]
+}

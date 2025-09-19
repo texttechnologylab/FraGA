@@ -1,0 +1,355 @@
+{
+    "text": " Aye aye aye. Ist Ben in mir dritten gesponnt? Kann man beim sich umschauen immer nur so springen, oder geht das mit dem Cursor auch fließen? Okay. Okay. Bei mir ist nichts, wo ich Ready drücken kann. Nee, ach so, ja, jetzt jetzt Roll Description kann ich wieder. [UM]-hmm.",
+    "words": [
+        {
+            "text": "Aye",
+            "timestamp": [
+                -0.24,
+                0.020000000000000018
+            ]
+        },
+        {
+            "text": "aye",
+            "timestamp": [
+                0.020000000000000018,
+                0.16000000000000014
+            ]
+        },
+        {
+            "text": "aye.",
+            "timestamp": [
+                0.18000000000000016,
+                0.48
+            ]
+        },
+        {
+            "text": "Ist",
+            "timestamp": [
+                6.36,
+                9.05
+            ]
+        },
+        {
+            "text": "Ben",
+            "timestamp": [
+                9.05,
+                9.31
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.31,
+                9.46
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                9.46,
+                9.64
+            ]
+        },
+        {
+            "text": "dritten",
+            "timestamp": [
+                9.64,
+                9.940000000000001
+            ]
+        },
+        {
+            "text": "gesponnt?",
+            "timestamp": [
+                9.940000000000001,
+                16.08
+            ]
+        },
+        {
+            "text": "Kann",
+            "timestamp": [
+                74.10000000000001,
+                74.27000000000001
+            ]
+        },
+        {
+            "text": "man",
+            "timestamp": [
+                74.27000000000001,
+                74.45
+            ]
+        },
+        {
+            "text": "beim",
+            "timestamp": [
+                74.45,
+                74.7
+            ]
+        },
+        {
+            "text": "sich",
+            "timestamp": [
+                74.7,
+                74.94
+            ]
+        },
+        {
+            "text": "umschauen",
+            "timestamp": [
+                74.94,
+                75.62
+            ]
+        },
+        {
+            "text": "immer",
+            "timestamp": [
+                75.7,
+                76.01
+            ]
+        },
+        {
+            "text": "nur",
+            "timestamp": [
+                76.01,
+                76.26
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                76.26,
+                76.58
+            ]
+        },
+        {
+            "text": "springen,",
+            "timestamp": [
+                76.68,
+                77.21000000000001
+            ]
+        },
+        {
+            "text": "oder",
+            "timestamp": [
+                77.21000000000001,
+                77.42
+            ]
+        },
+        {
+            "text": "geht",
+            "timestamp": [
+                77.42,
+                77.61
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                77.61,
+                77.75
+            ]
+        },
+        {
+            "text": "mit",
+            "timestamp": [
+                77.75,
+                77.88
+            ]
+        },
+        {
+            "text": "dem",
+            "timestamp": [
+                77.88,
+                78.03
+            ]
+        },
+        {
+            "text": "Cursor",
+            "timestamp": [
+                78.03,
+                78.47
+            ]
+        },
+        {
+            "text": "auch",
+            "timestamp": [
+                78.47,
+                78.92
+            ]
+        },
+        {
+            "text": "fließen?",
+            "timestamp": [
+                79.46000000000001,
+                95.68
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                417.0,
+                419.38
+            ]
+        },
+        {
+            "text": "Okay.",
+            "timestamp": [
+                476.91999999999996,
+                479.78
+            ]
+        },
+        {
+            "text": "Bei",
+            "timestamp": [
+                518.44,
+                518.88
+            ]
+        },
+        {
+            "text": "mir",
+            "timestamp": [
+                518.88,
+                519.09
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                519.09,
+                519.26
+            ]
+        },
+        {
+            "text": "nichts,",
+            "timestamp": [
+                519.26,
+                519.52
+            ]
+        },
+        {
+            "text": "wo",
+            "timestamp": [
+                519.52,
+                519.63
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                519.63,
+                519.74
+            ]
+        },
+        {
+            "text": "Ready",
+            "timestamp": [
+                519.74,
+                519.96
+            ]
+        },
+        {
+            "text": "drücken",
+            "timestamp": [
+                519.96,
+                520.25
+            ]
+        },
+        {
+            "text": "kann.",
+            "timestamp": [
+                520.25,
+                520.56
+            ]
+        },
+        {
+            "text": "Nee,",
+            "timestamp": [
+                523.7,
+                524.18
+            ]
+        },
+        {
+            "text": "ach",
+            "timestamp": [
+                527.66,
+                528.18
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                531.04,
+                531.31
+            ]
+        },
+        {
+            "text": "ja,",
+            "timestamp": [
+                531.31,
+                531.6
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                531.62,
+                532.14
+            ]
+        },
+        {
+            "text": "jetzt",
+            "timestamp": [
+                533.76,
+                534.2
+            ]
+        },
+        {
+            "text": "Roll",
+            "timestamp": [
+                534.22,
+                534.59
+            ]
+        },
+        {
+            "text": "Description",
+            "timestamp": [
+                534.59,
+                535.34
+            ]
+        },
+        {
+            "text": "kann",
+            "timestamp": [
+                535.4,
+                535.68
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                535.68,
+                535.85
+            ]
+        },
+        {
+            "text": "wieder.",
+            "timestamp": [
+                535.85,
+                538.18
+            ]
+        },
+        {
+            "text": "[UM]",
+            "timestamp": [
+                607.32,
+                607.5400000000001
+            ]
+        },
+        {
+            "text": "-hmm.",
+            "timestamp": [
+                607.5400000000001,
+                608.74
+            ]
+        }
+    ]
+}

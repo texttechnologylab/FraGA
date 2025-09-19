@@ -1,0 +1,404 @@
+{
+    "text": " Person 2 auch mal das Connector wieder kann die Brille ausziehen, den brauch ich nicht mehr, aber was mache ich hier, wenn der wieder reinkommt? Ja, so erst mal wieder in die Szene. Ja ja,se nö ist nicht da nö die Brille ist ist irgendwie rausgeflogen. Mach mal keine Abschlusswunde. Ja nee, finden Sie ihn nicht.",
+    "words": [
+        {
+            "text": "Person",
+            "timestamp": [
+                -0.3400000000000001,
+                2.1599999999999993
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                2.5600000000000005,
+                2.96
+            ]
+        },
+        {
+            "text": "auch",
+            "timestamp": [
+                2.96,
+                3.17
+            ]
+        },
+        {
+            "text": "mal",
+            "timestamp": [
+                3.17,
+                3.34
+            ]
+        },
+        {
+            "text": "das",
+            "timestamp": [
+                3.34,
+                3.4800000000000004
+            ]
+        },
+        {
+            "text": "Connector",
+            "timestamp": [
+                3.4800000000000004,
+                3.8499999999999996
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                3.8499999999999996,
+                4.1
+            ]
+        },
+        {
+            "text": "kann",
+            "timestamp": [
+                36.76,
+                36.91
+            ]
+        },
+        {
+            "text": "die",
+            "timestamp": [
+                36.91,
+                37.0
+            ]
+        },
+        {
+            "text": "Brille",
+            "timestamp": [
+                37.0,
+                37.21
+            ]
+        },
+        {
+            "text": "ausziehen,",
+            "timestamp": [
+                37.21,
+                37.72
+            ]
+        },
+        {
+            "text": "den",
+            "timestamp": [
+                38.099999999999994,
+                38.34
+            ]
+        },
+        {
+            "text": "brauch",
+            "timestamp": [
+                38.34,
+                38.49
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                38.49,
+                38.65
+            ]
+        },
+        {
+            "text": "nicht",
+            "timestamp": [
+                38.65,
+                38.8
+            ]
+        },
+        {
+            "text": "mehr,",
+            "timestamp": [
+                38.8,
+                39.080000000000005
+            ]
+        },
+        {
+            "text": "aber",
+            "timestamp": [
+                39.26,
+                39.68
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                40.86,
+                45.04
+            ]
+        },
+        {
+            "text": "mache",
+            "timestamp": [
+                45.04,
+                45.2
+            ]
+        },
+        {
+            "text": "ich",
+            "timestamp": [
+                45.2,
+                45.32
+            ]
+        },
+        {
+            "text": "hier,",
+            "timestamp": [
+                45.32,
+                45.580000000000005
+            ]
+        },
+        {
+            "text": "wenn",
+            "timestamp": [
+                46.94,
+                47.39
+            ]
+        },
+        {
+            "text": "der",
+            "timestamp": [
+                47.39,
+                47.53
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                47.53,
+                47.68
+            ]
+        },
+        {
+            "text": "reinkommt?",
+            "timestamp": [
+                47.72,
+                48.260000000000005
+            ]
+        },
+        {
+            "text": "Ja,",
+            "timestamp": [
+                51.66,
+                51.91
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                51.91,
+                51.99
+            ]
+        },
+        {
+            "text": "erst",
+            "timestamp": [
+                51.99,
+                52.129999999999995
+            ]
+        },
+        {
+            "text": "mal",
+            "timestamp": [
+                52.129999999999995,
+                52.230000000000004
+            ]
+        },
+        {
+            "text": "wieder",
+            "timestamp": [
+                52.230000000000004,
+                52.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                52.36,
+                52.42
+            ]
+        },
+        {
+            "text": "die",
+            "timestamp": [
+                52.42,
+                52.51
+            ]
+        },
+        {
+            "text": "Szene.",
+            "timestamp": [
+                52.51,
+                52.900000000000006
+            ]
+        },
+        {
+            "text": "Ja",
+            "timestamp": [
+                54.22,
+                55.09
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                55.09,
+                60.12
+            ]
+        },
+        {
+            "text": ",se",
+            "timestamp": [
+                60.12,
+                66.54
+            ]
+        },
+        {
+            "text": "nö",
+            "timestamp": [
+                68.92,
+                73.66
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                73.66,
+                73.82
+            ]
+        },
+        {
+            "text": "nicht",
+            "timestamp": [
+                73.82,
+                74.02000000000001
+            ]
+        },
+        {
+            "text": "da",
+            "timestamp": [
+                74.02000000000001,
+                74.42
+            ]
+        },
+        {
+            "text": "nö",
+            "timestamp": [
+                77.96,
+                78.37
+            ]
+        },
+        {
+            "text": "die",
+            "timestamp": [
+                78.37,
+                78.55
+            ]
+        },
+        {
+            "text": "Brille",
+            "timestamp": [
+                78.55,
+                78.82
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                78.82,
+                79.16
+            ]
+        },
+        {
+            "text": "ist",
+            "timestamp": [
+                79.5,
+                79.67
+            ]
+        },
+        {
+            "text": "irgendwie",
+            "timestamp": [
+                79.67,
+                79.92
+            ]
+        },
+        {
+            "text": "rausgeflogen.",
+            "timestamp": [
+                79.94,
+                80.74000000000001
+            ]
+        },
+        {
+            "text": "Mach",
+            "timestamp": [
+                81.64,
+                81.85
+            ]
+        },
+        {
+            "text": "mal",
+            "timestamp": [
+                81.85,
+                81.99
+            ]
+        },
+        {
+            "text": "keine",
+            "timestamp": [
+                81.99,
+                82.22
+            ]
+        },
+        {
+            "text": "Abschlusswunde.",
+            "timestamp": [
+                82.22,
+                82.92
+            ]
+        },
+        {
+            "text": "Ja",
+            "timestamp": [
+                88.32,
+                88.62
+            ]
+        },
+        {
+            "text": "nee,",
+            "timestamp": [
+                88.7,
+                89.0
+            ]
+        },
+        {
+            "text": "finden",
+            "timestamp": [
+                89.3,
+                89.72
+            ]
+        },
+        {
+            "text": "Sie",
+            "timestamp": [
+                89.72,
+                89.88
+            ]
+        },
+        {
+            "text": "ihn",
+            "timestamp": [
+                89.88,
+                89.99000000000001
+            ]
+        },
+        {
+            "text": "nicht.",
+            "timestamp": [
+                89.99000000000001,
+                91.8
+            ]
+        }
+    ]
+}

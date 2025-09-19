@@ -1,0 +1,229 @@
+{
+    "text": " Okay, I have a window to select role, but there's no roles in it, it's empty. ja No. And you're alone in the room, which is also crazy. Is the Power Bank?",
+    "words": [
+        {
+            "text": "Okay,",
+            "timestamp": [
+                5.22,
+                5.9399999999999995
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.1,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                6.82,
+                7.05
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.05,
+                7.1499999999999995
+            ]
+        },
+        {
+            "text": "window",
+            "timestamp": [
+                7.1499999999999995,
+                7.5
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.5,
+                7.6499999999999995
+            ]
+        },
+        {
+            "text": "select",
+            "timestamp": [
+                7.6499999999999995,
+                8.04
+            ]
+        },
+        {
+            "text": "role,",
+            "timestamp": [
+                8.04,
+                8.459999999999999
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                9.440000000000001,
+                12.580000000000002
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                12.580000000000002,
+                12.940000000000001
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                12.940000000000001,
+                13.129999999999999
+            ]
+        },
+        {
+            "text": "roles",
+            "timestamp": [
+                13.129999999999999,
+                13.64
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                13.7,
+                13.89
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                13.89,
+                14.219999999999999
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                14.46,
+                14.920000000000002
+            ]
+        },
+        {
+            "text": "empty.",
+            "timestamp": [
+                14.96,
+                17.18
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                20.84,
+                23.18
+            ]
+        },
+        {
+            "text": "No.",
+            "timestamp": [
+                26.82,
+                30.979999999999997
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                40.86,
+                46.56999999999999
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                46.56999999999999,
+                46.809999999999995
+            ]
+        },
+        {
+            "text": "alone",
+            "timestamp": [
+                46.809999999999995,
+                47.12
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                47.12,
+                47.26
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                47.26,
+                47.4
+            ]
+        },
+        {
+            "text": "room,",
+            "timestamp": [
+                47.4,
+                47.739999999999995
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                47.76,
+                48.05
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                48.05,
+                48.19
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                48.19,
+                48.449999999999996
+            ]
+        },
+        {
+            "text": "crazy.",
+            "timestamp": [
+                48.449999999999996,
+                50.78
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                56.72,
+                56.94
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                56.94,
+                57.059999999999995
+            ]
+        },
+        {
+            "text": "Power",
+            "timestamp": [
+                57.059999999999995,
+                57.22
+            ]
+        },
+        {
+            "text": "Bank?",
+            "timestamp": [
+                57.239999999999995,
+                62.12
+            ]
+        }
+    ]
+}
