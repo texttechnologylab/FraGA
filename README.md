@@ -2,10 +2,10 @@
 [![Conference](http://img.shields.io/badge/conference-SemDial--2025-4b44ce.svg)](https://semdial2025.github.io/)
 [![version](https://img.shields.io/github/license/texttechnologylab/FraGA)]()
 
-# FraGA
+# FraGA: Frankfurt VR Gesture–Speech Alignment Corpus
 
 Head and hand movements during turn transitions: data-based multimodal analysis using the Frankfurt VR Gesture–Speech
-Alignment Corpus
+Alignment Corpus. FraGA is a corpus of human-as-avatar route direction dialogues. The VR tracking data is used to perform automated multimodal analyses. This repository provides the data and processing scripts. If you use any of these, please cite FraGA according to the reference below.
 
 # Abstract
 
