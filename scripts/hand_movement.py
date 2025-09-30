@@ -7,6 +7,23 @@ from scipy.stats import ttest_rel, ttest_ind
 from typing import Dict, List, Tuple
 
 def compute_path_stats(pos_list: List[dict]) -> dict:
+    """
+    Compute basic movement statistics from a sequence of 3D positions.
+
+    Parameters:
+    pos_list : List[dict]
+        A list of dictionaries containing 3D coordinates with keys {'x', 'y', 'z'}.
+        Example: [{'x':1,'y':2,'z':3}, {'x':2,'y':4,'z':6}, ...]
+
+    Returns:
+        A dictionary with the following keys:
+        - 'total_distance' : float
+            Total traveled distance across the entire path (sum of step distances).
+        - 'n_steps' : int
+            Number of steps (i.e., number of consecutive position differences).
+        - 'step_distances' : np.ndarray
+            Array of Euclidean distances between consecutive positions.
+    """
     if not pos_list or len(pos_list) < 2:
         return {'total_distance': 0.0, 'n_steps': 0, 'step_distances': np.array([])}
     coord_array   = np.array([[p['x'], p['y'], p['z']] for p in pos_list])
@@ -18,12 +35,48 @@ def compute_path_stats(pos_list: List[dict]) -> dict:
         'step_distances': step_distances
     }
 
-def analyze_all(loopvar_root: str,
-                all_token_timestamps: Dict[str, List[Tuple[float, float]]],
-                player_dict: Dict[str, str],
-                simulation_root: str,
-                include_dom: bool = True) -> pd.DataFrame:
-    # Map simulation folders by player_id
+def analyze_all(loopvar_root: str, all_token_timestamps: Dict[str, List[Tuple[float, float]]],
+                player_dict: Dict[str, str], simulation_root: str, include_dom: bool = True) -> pd.DataFrame:
+    """
+    Analyze hand movement data for all players across different experimental phases.
+    This function combines loopVarIds, token timestamps, and
+    3D tracking data (left/right hand) to compute path statistics for each player.
+    The analysis is performed separately for the phases 'before', 'during', and 'after'.
+
+    Parameters:
+    loopvar_root : str
+        Root directory containing per-player loopVarID folders.
+    all_token_timestamps : Dict[str, List[Tuple[float, float]]]
+        Dictionary mapping player_id → list of (start_time, end_time) tuples.
+        These define the time segments used for extracting tracking data.
+    player_dict : Dict[str, str]
+        Dictionary mapping player_id → dominant hand ('left' or 'right').
+    simulation_root : str
+        Root directory containing simulation folders with JSON tracking data.
+        Folder names are expected to contain the player_id as the 4th part.
+    include_dom : bool, optional (default=True)
+        Whether to include dominant hand information in the output.
+        If True, entries without dominant-hand info are skipped.
+
+    Returns:
+    pd.DataFrame
+        A DataFrame containing per-player statistics with columns:
+        - 'player_id'      : str, unique player identifier
+        - 'hand'           : str, 'left' or 'right'
+        - 'phase'          : str, 'before', 'during', or 'after'
+        - 'total_distance' : float, total traveled distance across the phase
+        - 'mean_step'      : float, mean step length during the phase
+        - 'dominant'       : str, dominant hand (if include_dom=True)
+
+    Notes:
+    - Players are skipped if any of the required data (timestamps, loopVarIDs,
+      simulation folder, or tracking JSON) is missing.
+    - Path statistics are computed using `compute_path_stats`, which measures
+      step distances as Euclidean norms in 3D.
+    - If `n_steps = 0`, the mean step length is set to 0.0.
+    - The function prints a summary of skipped player IDs for debugging.
+    """
+    # Map simulation folders by player_id:
     sim_map: Dict[str,str] = {}
     for sim_folder in os.listdir(simulation_root):
         simpath = os.path.join(simulation_root, sim_folder)
@@ -48,49 +101,49 @@ def analyze_all(loopvar_root: str,
             continue
         player_id = parts[3]
 
-        # Dominante Hand
+        # Dominant Hand
         dom = player_dict.get(player_id)
         if include_dom and dom is None:
-            print(f"Warnung: Keine dominante Hand für {player_id}")
+            print(f"Warning: No dominant Hand for {player_id}")
             skipped_ids.append(player_id)
             continue
         if not include_dom:
             dom = 'all'
 
-        # Zeitstempel
+        # Timestamps:
         times = all_token_timestamps.get(player_id)
         if times is None:
-            print(f"Warnung: keine Zeitstempel für {player_id}")
+            print(f"Warning: No Timestamps for {player_id}")
             skipped_ids.append(player_id)
             continue
 
-        # LoopVarIDs laden
+        # Load LoopVarIDs: 
         loopvar_path = os.path.join(subpath, "loopVarIDs.txt")
         try:
             loopvar_ids = hdb.load_loopvarids(loopvar_path)
         except FileNotFoundError:
-            print(f"Warnung: Keine loopVarIDs für {player_id}")
+            print(f"Warning: No loopVarIDs for {player_id}")
             skipped_ids.append(player_id)
             continue
 
-        # JSON-Ordner prüfen
+        # Check JSON-Folder
         sim_folder = sim_map.get(player_id)
         if sim_folder is None:
-            print(f"Warnung: Keine JSON-Ordner für {player_id}")
+            print(f"Warning: No JSON-Folder for {player_id}")
             skipped_ids.append(player_id)
             continue
         simpath = os.path.join(simulation_root, sim_folder)
 
-        # Tracking-Daten laden
+        # Load Tracking-Data
         try:
             lefthand  = hdb.load_tracking_data(os.path.join(simpath, "handleft.json"))
             righthand = hdb.load_tracking_data(os.path.join(simpath, "handright.json"))
         except FileNotFoundError:
-            print(f"Warnung: Fehlende Handdaten für {player_id}")
+            print(f"Warning: Missing Hand-data for {player_id}")
             skipped_ids.append(player_id)
             continue
 
-        # Analyse pro Hand & Phase
+        # Analysis per Hand & Phase
         for hand_name, data in [('left', lefthand), ('right', righthand)]:
             phase_acc = {phase: {'distance':0.0, 'steps':0} for phase in ['before','during','after']}
             for phase in phase_acc:
@@ -98,7 +151,7 @@ def analyze_all(loopvar_root: str,
                     try:
                         seg = hdb.get_tracking_data_for_timesegment([ts], loopvar_ids, data, timestamp=phase)
                     except IndexError:
-                        print(f"Warnung: Zeitsegment außerhalb für {player_id}, Phase {phase}, Timestamp {ts}")
+                        print(f"Warning: Timesegment out of range for {player_id}, Phase {phase}, Timestamp {ts}")
                         continue
                     seg_data = seg.get('botPos', [])
                     stats    = compute_path_stats(seg_data)
@@ -121,8 +174,8 @@ def analyze_all(loopvar_root: str,
                 records.append(rec)
 
     unique_skipped = sorted(set(skipped_ids))
-    print("Übersprungene Player-IDs:", unique_skipped)
-    print("Anzahl übersprungener IDs: ", len(unique_skipped))
+    print("Skipped Player-IDs:", unique_skipped)
+    print("Amount of skipped IDs: ", len(unique_skipped))
 
     df = pd.DataFrame(records)
     if not include_dom:
@@ -130,6 +183,9 @@ def analyze_all(loopvar_root: str,
     return df
 
 def aggregate(df: pd.DataFrame, include_dom: bool):
+    """Aggregates mean step lengths across hand and phase (and optionally dominant hand) 
+    by computing group-wise averages and standard errors.
+    """
     if include_dom:
         idx = ['dominant','hand','phase']
     else:
@@ -140,14 +196,51 @@ def aggregate(df: pd.DataFrame, include_dom: bool):
     return means, sems
 
 def plot_bars(means, sems, var, ylabel, df_all, mean_step_ref=None, include_dom=True):
-    # Reihenfolge sicherstellen
-    order = ['before','during','after']
+    """Create a grouped bar plot with error bars and significance testing for hand movement data.
+    
+    Parameters:
+    means : pandas.DataFrame
+        DataFrame containing mean values of the variable of interest, grouped by conditions.
+        Columns correspond to grouping factors (hands and optionally dominance).
+        Rows correspond to phases (before, during, after).
+    sems : pandas.DataFrame
+        DataFrame containing the standard errors of the mean (SEM), in the same structure as `means`.
+    var : str
+        The column name in `df_all` that specifies which variable is being compared (e.g., "mean_step").
+    ylabel : str
+        Label for the y-axis of the plot.
+    df_all : pandas.DataFrame
+        Original dataset containing the raw values, including columns:
+        - "phase": experiment phase (before/during/after),
+        - "hand": "left" or "right",
+        - plus the variable indicated by `var`.
+    mean_step_ref : dict, optional (default=None)
+        Dictionary with reference mean values per hand, e.g. {"left": 0.123, "right": 0.145}.
+        If provided, horizontal reference lines will be drawn for comparison.
+    include_dom : bool, optional (default=True)
+        If True, bars are grouped by dominance + hand.
+        If False, bars are grouped by hand only.
+
+    Behavior:
+    - Bars are drawn for each phase (before, during, after), grouped either by hand
+      or by dominance+hand depending on `include_dom`.
+    - Error bars represent SEMs.
+    - A paired t-test is performed between left and right hand values for each phase,
+      and the result is annotated with either "*" (p < 0.05) or "n.s." (not significant).
+    - If `mean_step_ref` is provided, dashed horizontal reference lines are added
+      with labels for left and right hands.
+
+    Output:
+    - Displays the plot.
+    - Saves the figure as a PDF to the path ---> SET PATH!!!
+    """
+    order = ['before','during','after'] # ensure order (x-axis)
     means = means.reindex(order)
     sems  = sems.reindex(order)
     phases = means.index
     x = np.arange(len(phases))
 
-    # Original-Spalten
+    # Original-columns
     orig_labels = list(means.columns)
     if include_dom:
         width   = 0.2
@@ -170,7 +263,6 @@ def plot_bars(means, sems, var, ylabel, df_all, mean_step_ref=None, include_dom=
     ax.set_title(f"Mean Distance per Frame - Token")
     ax.legend(loc='upper right')
 
-    # Signifikanz-Linie: Left vs. Right (paired)
     for i, phase in enumerate(phases):
         left_vals  = df_all[(df_all.phase==phase)&(df_all.hand=='left')][var]
         right_vals = df_all[(df_all.phase==phase)&(df_all.hand=='right')][var]
@@ -181,7 +273,7 @@ def plot_bars(means, sems, var, ylabel, df_all, mean_step_ref=None, include_dom=
         y  = max(y0, y1) * 1.1
         ax.plot([x0, x1], [y, y], 'k-', lw=1.5)
         sig = 'n.s.' if p>=0.05 else '*'
-        # Y-Offset zur Vermeidung von Überlappung
+
         ylim = ax.get_ylim()
         y_span = ylim[1] - ylim[0]
         y_text_left  = y + 0.02 * y_span
@@ -189,7 +281,7 @@ def plot_bars(means, sems, var, ylabel, df_all, mean_step_ref=None, include_dom=
         ax.text((x0+x1)/2, y_text_left if include_dom else y_text_left,
                 sig, ha='center', va='bottom')
 
-    # Referenzlinien
+    # Reference-line
     if mean_step_ref:
         ylim = ax.get_ylim()
         y_span = ylim[1] - ylim[0]
@@ -197,21 +289,30 @@ def plot_bars(means, sems, var, ylabel, df_all, mean_step_ref=None, include_dom=
             ref_val = mean_step_ref.get(hand)
             if ref_val is not None:
                 ax.axhline(y=ref_val, linestyle='--', linewidth=1.2, color='black')
-                # leichten Y-Versatz pro Hand
                 offset = (0.02 if hand=='left' else -0.02) * y_span
                 ax.text(len(phases)-0.5, ref_val + offset,
                         f"{hand.capitalize()}: {ref_val:.3f}",
                         va='center', ha='left', fontsize=8, color='black')
 
     plt.tight_layout()
-    plt.savefig(r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\Results\Handmovement.pdf")
+    plt.savefig(r"...\Github\Results\Handmovement.pdf")                                                                  ### SET PATH ###
     plt.show()
 
 def cohen_d_paired(x, y):
+    """
+    Compute Cohen's d effect size for paired samples.
+    """
     diff = x - y
     return diff.mean() / diff.std(ddof=1)
 
 def perform_stat_tests(df: pd.DataFrame, var_list: List[str], label: str):
+    """
+    Perform paired t-tests on hand movement data and compute Cohen's d effect sizes.
+
+    Two types of comparisons are performed for each variable in `var_list`:
+    1. Left vs. Right hand for each phase ("before", "during", "after").
+    2. Before vs. After phase for each hand separately ("left" and "right").
+    """
     for var in var_list:
         print(f"\n=== Paired t-Tests Left vs Right ({var}) – {label} ===")
         for phase in ['before','during','after']:
@@ -247,17 +348,12 @@ def perform_stat_tests(df: pd.DataFrame, var_list: List[str], label: str):
             print(f"{hand.capitalize()} Hand Before vs After: t({df2}) = {t2:.2f}, p = {p2:.4f}, d = {d2:.2f}")
 
 
-def perform_ref_vs_token_tests(df_token: pd.DataFrame,
-                               df_dialogue: pd.DataFrame,
-                               var: str = 'mean_step',
-                               label: str = ''):
+def perform_ref_vs_token_tests(df_token: pd.DataFrame, df_dialogue: pd.DataFrame, var: str = 'mean_step',label: str = ''):
     """
-    Vergleicht für jede Hand, ob der Mittelwert der 'During'-Phase aus den
-    Dialogue-Daten (Referenzlinie) signifikant unterschiedlich ist von den
-    drei Phasen ('before', 'during', 'after') aus den Token-Daten.
-    Es wird jeweils ein gepaarter t-Test durchgeführt, wobei nur jene Player-IDs
-    berücksichtigt werden, die in beiden DataFrames in der entsprechenden Hand-Phase
-    vorkommen.
+    Perform paired t-tests comparing the 'During' phase of dialogue data (reference) 
+    against all three phases ('before', 'during', 'after') of token data, separately for each hand.
+
+    Only subjects present in both DataFrames for the same hand and phase are included in each test.
     """
     print(f"\n=== Paired t-Tests: Dialogue 'During' vs Token Phases – {label} ===")
     for hand in ['left','right']:
@@ -279,64 +375,51 @@ def perform_ref_vs_token_tests(df_token: pd.DataFrame,
             print(f"{hand.capitalize()}, {phase}: t({dfree}) = {t:.2f}, p = {p:.4f}, d = {d:.2f}")
 
 if __name__ == "__main__":
-    # Parameter: True = zusätzlich nach dominanter Hand differenzieren; False = nur nach Hand (Links vs. Rechts)
+    # Parameter: If True, also differentiate by dominant hand; if False, group only by hand side (left vs. right)
     include_dom = False
 
-    # Player-Dict laden --> Dict mit {ID : Dominant Hand, ...}
-    excel_path = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\EX3_allPlayer_playerID.xlsx"
+    # Load Player-Dict  --> Dict: {ID : Dominant Hand, ...}
+    excel_path = r"...\Github\FraGa_allPlayer_playerID.xlsx"                                            ### SET PATH!!! ###
     player_dict = hdb.dominant_hand_dict(excel_path)
     
-    folder_dialog   = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\dialogue"
-    folder_json     = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\crisper_whisper_json"
+    folder_dialog   = r"...\Github\dialogue"                                                            ### SET PATH!!! ###
+    folder_json     = r"...\Github\crisper_whisper_json"                                                ### SET PATH!!! ###
     
-    # Timestamps extrahieren:
-    
-    all_dialogue_ts = hdb.extract_dialogue_timestamps(folder_dialog)                                    # Timestamps für alle Sätze der Dialogdatei
-    all_bracketed_ts= hdb.extract_bracketed_timestamps(folder_json, output_path="no", export=False)     #Token Timestamps: bsp. [UH]
-    
-    #all_aussage_ts  = hdb.extract_speechact_timestamps(folder_dialog, speechact_type="Aussage")
-    #all_frage_ts    = hdb.extract_speechact_timestamps(folder_dialog, speechact_type="Frage")
+    # Extract Timestamps:
+    all_dialogue_ts = hdb.extract_dialogue_timestamps(folder_dialog)                                    # Dialogue-Timestamps --> All sentences
+    all_bracketed_ts= hdb.extract_bracketed_timestamps(folder_json, output_path="no", export=False)     # Bracketed Timestamps --> Hesitations e.g. "[UM]"
+    #all_aussage_ts  = hdb.extract_speechact_timestamps(folder_dialog, speechact_type="Aussage")        # Timestamps for all Sentences with a "." at the end.
+    #all_frage_ts    = hdb.extract_speechact_timestamps(folder_dialog, speechact_type="Frage")          # Timestamps for all Sentences with a "?" at the end.
 
-    # Ordnerpfade --> Trackingdaten (Json) und loopvarids (146 Probanden)
-    loopvar_root    = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\ExperimentExport146"                          #LoopVarIDs
-    simulation_root = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\ExperimentExport146\SimulationJsonFiles"    #Trackingdaten JSON
+    # Folder Path --> Trackingdaten (Json) und loopvarids
+    loopvar_root    = r"...\Github\tracking_json_zip"                          #LoopVarIDs                        ### SET PATH!!! ###
+    simulation_root = r"...\Github\tracking_json_zip\SimulationJsonFiles"      #Trackingdaten JSON                ### SET PATH!!! ###
 
-    # Analysen
+    # Analysis:
     df_bracketed = analyze_all(loopvar_root, all_bracketed_ts, player_dict, simulation_root, include_dom)
     df_dialogue  = analyze_all(loopvar_root, all_dialogue_ts,  player_dict, simulation_root, include_dom)
-    #df_aussage   = analyze_all(loopvar_root, all_aussage_ts, player_dict, simulation_root, include_dom)
-    #df_frage     = analyze_all(loopvar_root, all_frage_ts,   player_dict, simulation_root, include_dom)
 
-    # Aggregation
+    # Aggregation:
     means_br, sems_br       = aggregate(df_bracketed, include_dom)
     means_dlg, sems_dlg     = aggregate(df_dialogue,  include_dom)
-    #means_auss, sems_auss   = aggregate(df_aussage,   include_dom)
-    #means_fr, sems_fr       = aggregate(df_frage,     include_dom)
 
-    # Referenzwerte: During-Phase
+    # Reference Values: During-Phase
     mean_step_ref_dialog = (df_dialogue[df_dialogue.phase == 'during'].groupby('hand')['mean_step'].mean().to_dict())
     mean_step_ref_bracketed = (df_bracketed[df_bracketed.phase == 'during'].groupby('hand')['mean_step'].mean().to_dict())
-    #mean_step_ref_aussage = (df_aussage[df_aussage.phase == 'during'].groupby('hand')['mean_step'].mean().to_dict())
-    #mean_step_ref_frage = (df_frage[df_frage.phase == 'during'].groupby('hand')['mean_step'].mean().to_dict())
 
-    # Plots
-    plot_bars(means_br, sems_br, 'mean_step', 'Distance', df_bracketed, mean_step_ref_dialog, include_dom)
-    #plot_bars(means_dlg, sems_dlg, 'mean_step', 'Distance', df_dialogue,  mean_step_ref_bracketed, include_dom)
-    #plot_bars(means_auss, sems_auss,'mean_step', 'Distance', df_aussage,   mean_step_ref_frage, include_dom)
+    # Plots:
+    plot_bars(means_br, sems_br, 'mean_step', 'Distance', df_bracketed, mean_step_ref_dialog, include_dom)              # Dialog as reference line
+    #plot_bars(means_dlg, sems_dlg, 'mean_step', 'Distance', df_dialogue,  mean_step_ref_bracketed, include_dom)        # Hesitations as reference line
 
-    # Statistische Tests
+    # Statistical Tests:
     print("=== Bracketed ===")
     perform_stat_tests(df_bracketed, ['mean_step'], 'Bracketed')
     #print("=== Dialogue ===")
     #perform_stat_tests(df_dialogue,  ['mean_step'], 'Dialogue')
-    #print("=== Aussage ===")
-    #perform_stat_tests(df_aussage,   ['mean_step'], 'Aussage')
-    #Paired t-Tests: Dialogue 'During' vs. Token Phases
-    
+
+    # Paired t-Tests: Dialogue 'During' vs. Token Phases
     perform_ref_vs_token_tests(df_bracketed, df_dialogue, var='mean_step', label='Token vs. Dialogue-During')
     
-    
-    # #Mittelwerte des plots Ausgeben:
-    print("\n=== Mittelwerte Bracketed ===")
+    # Return Means of generated plot:
+    print("\n===Mittelwerte===")
     print(means_br)
-    
