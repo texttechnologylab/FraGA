@@ -68,3 +68,45 @@ See: `FraGa/scripts/results/Pinknoise Dialog.xlsx`
 - 386: Crisper_Whisper_Json – Word-Timestamps  
 - 395: LoopVarId  
 - 396: `tracking_json_zip` – Tracking Data JSON-Files
+
+---
+
+# settings.py
+
+Sets the variables for different data input and output paths for the eye movement analysis.
+Set variables before using the eye analysis functions.
+
+---
+
+# utils.py
+
+Helper Functions to conduct the `eye_visual.py` analysis.
+
+**Requirements:**  
+- Excel-table – `FraGa_allPlayer_playerID.xlsx`
+
+## Functions
+
+- **Loading LoopVarIds** from TXT-Files  
+- **Loading Tracking Data** from JSON-Files  
+- **Importing data from the Excel sheet into a dictionary, with the option to create a json file**
+
+---
+
+# eye_visual.py
+
+Main module for eye analysis functions
+
+**Requirements:**  
+- Excel-table – `FraGa_allPlayer_playerID.xlsx`  
+- LoopVarIDs  
+- body.json  
+- eye.json
+- head.json
+- Dialogue Folder – Transcription Chat (Player 1 + Player 2)  
+- Crisper_Whisper_Json – Word_timestamps 
+
+## Functions
+
+- **data_process()**: Analyses the view direction of all players with existing data and returns plots for the results.
+- **load_id_qick_3d_plot()**: Creates 3d plots to visualize view directions for all players with existing data. View calculations differ slightly from the data_process function, since a dynamic calculation is needed for the 3d plot.
