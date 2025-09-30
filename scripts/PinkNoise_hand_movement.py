@@ -240,9 +240,3 @@ if __name__ == "__main__":
 
     fig.subplots_adjust(left=0.10, right=0.95, top=0.88, bottom=0.18)       # tighten margins: reduce bottom/left whitespace
     plt.savefig(r"...\Github\Results\Pinknoise_RightHand.pdf")              # PDF-Format                                                ### SET PATH!!! ###
-
-    # tighten margins: reduce bottom/left whitespace
-    fig.subplots_adjust(left=0.10, right=0.95, top=0.88, bottom=0.18)
-
-    plt.savefig(r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\Results\Pinknoise_RightHand.pdf")             #PDF
-    #plt.savefig(r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\Results\PinkNoise_RightHand.png")            #PNG
