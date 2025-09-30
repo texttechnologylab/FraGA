@@ -33,7 +33,7 @@ Here we find that hand movements indeed follow 1⁄f fluctuations, a property of
 * DominantHand: Dominant hand of the participant.
 * Language: Spoken language of the participant ordered by proficiency.
 * ExperienceWithVR: Experience with VR (1: No experience; 5: Heavy user).
-* AcquaintanceWithInterlocutor: Acquaintance with the interlocutor (1: Well-known; 5: Meeting for the first time).
+* AcquaintanceWithInterlocutor: Acquaintance with the interlocutor (1: Meeting for the first time; 5: Well-known).
 * ExpTime: Merged Date and Time.
 * PlayerID: ID of the participant related to the tracking data.
 * ServerTime: First login time of the participant and with that tracking start time.
