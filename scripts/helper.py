@@ -26,7 +26,7 @@ def get_tracking_data_for_timesegment(timestamps: list, loopvar_ids: list, track
             start = end_offset
             stop  = end_offset + 1
         else:
-            raise ValueError(f"Unbekannter timestamp mode: {timestamp}")
+            raise ValueError(f"Unknown timestamp mode: {timestamp}")
 
         start_frame = round(start / time_per_frame)
         stop_frame  = round(stop  / time_per_frame)
@@ -73,16 +73,20 @@ def load_tracking_data(path: str) -> dict:
     return trackingdata
 
 def merge_ordered_dicts(dict1, dict2):
+    """
+    Merge two dictionaries while preserving order and handling list concatenation.
+    The function returns a new dictionary containing all keys from both inputs.
+    """
     merged = {}
-    all_keys = dict1.keys() | dict2.keys()  # Alle Schlüssel aus beiden Dictionaries
+    all_keys = dict1.keys() | dict2.keys()  # All Keys from both Dictionaries
 
     for key in all_keys:
         if key in dict1 and key in dict2:
-            # Falls beide Dictionaries den Schlüssel haben, Listen verketten
+            # If both dictionaries contain the key, concatenate the lists.
             if isinstance(dict1[key], list) and isinstance(dict2[key], list):
-                merged[key] = dict1[key] + dict2[key]  # Reihenfolge bleibt erhalten
+                merged[key] = dict1[key] + dict2[key]  # The order remains unchanged
             else:
-                merged[key] = dict1[key]  # Falls es kein Listenwert ist, übernehme einen Wert
+                merged[key] = dict1[key]  
         elif key in dict1:
             merged[key] = dict1[key]
         else:
@@ -91,10 +95,10 @@ def merge_ordered_dicts(dict1, dict2):
     return merged
 
 def dominant_hand_dict(excel_path: str) -> Dict[str, str]:
-    """Liest eine Excel-Datei ein und erstellt ein Dictionary mit playerId → Dominante Hand.
-    
-    Erwartetes Format der Spalte 'playerId': Python-Listen wie ['id1', 'id2']
-    Spalte 'Dominant Hand' enthält den Handtyp (z.B. 'right hand', 'left hand')"""
+    """Reads an Excel file and creates a dictionary mapping playerId → dominant hand.
+    Expected format of the column 'playerId': Python lists stored as strings, e.g. ['id1', 'id2']
+    Column 'Dominant Hand' contains the hand type (e.g. 'right hand', 'left hand').
+    """
     df = pd.read_excel(excel_path)
     player_dict: Dict[str, str] = {}
 
@@ -104,20 +108,26 @@ def dominant_hand_dict(excel_path: str) -> Dict[str, str]:
             for pid in ids:
                 player_dict[pid.strip()] = hand
         except Exception as e:
-            print(f"Fehler beim Parsen von {pid_cell}: {e}")
+            print(f"Error while Parsing {pid_cell}: {e}")
 
     return player_dict
 
 def extract_speechact_timestamps(folder_path: str, speechact_type: str = "Aussage") -> Dict[str, List[Tuple[float, float]]]:
     """
-    Liest alle .txt-Dateien ein und extrahiert nur die time stamps des gewünschten Speechacts (Aussage oder Frage).
+    Reads all `.txt` transcription files in a folder and extracts only the timestamps 
+    of the requested speech act type ("Aussage" = statement or "Frage" = question).
     
     Parameter:
-    - folder_path: Pfad zum Ordner mit den Dialog Transkriptionen (.txt-Dateien)
-    - speechact_type: "Aussage" oder "Frage"
+    - folder_path: Path to the folder containing dialogue transcription files (`.txt`).
+        The file names are expected to follow the pattern: <id1>+<id2>_dialogue.txt
+    - Which type of speech act to extract. Must be either:
+        - "Aussage" → statements (lines ending with a period `.` or otherwise defaulting to statement)
+        - "Frage"   → questions (lines ending with a question mark `?`)
+        Default is "Aussage".
 
     Rückgabe:
-    Dict[player_id, List[(start, end)]] für den gewählten Speechact
+    A dictionary mapping each `player_id` to a list of `(start_time, end_time)` tuples, 
+        where times are expressed in seconds (floats) --> Dict[player_id, List[(start, end)]]
     """
     if speechact_type not in {"Aussage", "Frage"}:
         raise ValueError("speechact_type muss 'Aussage' oder 'Frage' sein.")
@@ -168,18 +178,19 @@ def extract_speechact_timestamps(folder_path: str, speechact_type: str = "Aussag
 
 def extract_bracketed_timestamps(folder_path: str, output_path, export=False) -> Dict[str, List[Tuple[float, float]]]:
     """
-    Liest alle JSON-Dateien in `folder_path` ein und extrahiert nur die Wort-Timestamps,
-    deren "text" in eckigen Klammern steht (z.B. "[UM]", "[UH]" etc.).
-    Die playerid wird aus dem Dateinamen im Format
-    ..._YYYYMMDD_HHMMSS_<playerid>_words.json entnommen.
+    Reads all JSON files in a given folder and extracts word-level timestamps 
+    where the `"text"` field is enclosed in square brackets (e.g., "[UM]", "[UH]").
 
-    Rückgabe:
+    The `player_id` is inferred from the filename, which must follow the format:
+    ..._YYYYMMDD_HHMMSS_<playerid>_words.json
+
+    Returns:
         Dict[playerid, List[(start, end), ...]]
     """
     timestamps_by_player: Dict[str, List[Tuple[float, float]]] = {}
     folder = Path(folder_path)
     
-    # Alle .json-Dateien im Verzeichnis
+    # All json-Files in the Repository
     for json_file in folder.glob("*.json"):
         parts = json_file.stem.split("_")
         if len(parts) < 4:
@@ -196,7 +207,7 @@ def extract_bracketed_timestamps(folder_path: str, output_path, export=False) ->
         if player_id not in timestamps_by_player:
             timestamps_by_player[player_id] = []
         
-        # Nur Wörter mit Text in eckigen Klammern auswählen
+        # Only select words containing text enclosed in square brackets.
         for w in words:
             text = w.get("text", "")
             if isinstance(text, str) and text.startswith("[") and text.endswith("]"):
@@ -209,7 +220,7 @@ def extract_bracketed_timestamps(folder_path: str, output_path, export=False) ->
                     start, end = float(ts[0]), float(ts[1])
                     timestamps_by_player[player_id].append((start, end))
     
-    # JSON schreiben
+    # Write JSON: 
     if export == True:
         with open(output_path, "w", encoding="utf-8") as out_f:
             json.dump(timestamps_by_player, out_f, ensure_ascii=False, indent=2)
@@ -219,15 +230,29 @@ def extract_bracketed_timestamps(folder_path: str, output_path, export=False) ->
 
 def extract_dialogue_timestamps(folder_path: str) -> Dict[str, List[Tuple[float, float]]]:
     """
-    Liest alle .txt-Dateien in `folder_path` ein, deren Namen das Format
-    <player1_id>+<player2_id>_dialogue.txt haben.
-    Extrahiert aus jeder Zeile:
-      Player N: [MM:SS.mmm --> MM:SS.mmm]  Text
-    die Start- und Endzeit, konvertiert beides in Sekunden und sammelt sie
-    pro player_id.
+    Reads all `.txt` files in the given folder and extracts dialogue timestamps 
+    for each player based on the expected filename and line format.
 
-    Rückgabe:
-        Dict[player_id, List[(start_seconds, end_seconds), ...]]
+    Expected filename format:
+    <player1_id>+<player2_id>_dialogue.txt
+    Example: "0a0b9bcf-2f6a498c+e05b7223-d1c3a586_dialogue.txt"
+
+    Expected line format inside the file:
+    Example: Player 1: [00:05.230 --> 00:07.580]  Hello, how are you?
+
+    Parsing logic:
+    - Uses a regular expression to capture:
+        * Player number (1 or 2)
+        * Start time (minutes, seconds.milliseconds)
+        * End time (minutes, seconds.milliseconds)
+    - Converts times into total seconds as floats.
+    - Maps the extracted times to the correct `player_id` from the filename.
+
+    Parameters:
+    folder_path : Path to the folder containing dialogue transcription `.txt` files.
+
+    Returns:
+    Dict[str, List[Tuple[float, float]]]
     """
     # Regex zum Parsen der Timestamp-Zeile
     line_pattern = re.compile(
@@ -249,7 +274,7 @@ def extract_dialogue_timestamps(folder_path: str) -> Dict[str, List[Tuple[float,
         except ValueError:
             # Unerwartetes Format überspringen
             continue
-        # Whitespace entfernen
+        # Remove Whitespace 
         id1 = raw_id1.strip()
         id2 = raw_id2.strip()
 
@@ -283,26 +308,26 @@ def extract_dialogue_timestamps(folder_path: str) -> Dict[str, List[Tuple[float,
 
 
 if __name__ == "__main__":
+    # SET PATH to word_timestamps_json-Folder and Dialogue-Folder
+    folder_dialog = r"...\Github\dialogue"                                                                          ### SET PATH!!! ###
+    folder_json     = r"...\Github\crisper_whisper_json"                                                            ### SET PATH!!! ###
     
-    folder_dialog = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\dialogue"
-    folder_json     = r"C:\Users\Danie\Desktop\Studentische Hilfskraft\Github\crisper_whisper_json"
-    
-    #Timestamps für alle Sätze:
+    #Timestamps for all Sentences for player "ab133da0-f27e51e0":
     print("All Sentence Timestamps for 'ab133da0-f27e51e0':")
-    dialog_timestamps = extract_dialogue_timestamps(folder_dialog)
+    dialog_timestamps = extract_dialogue_timestamps(folder_dialog)                                                  # folder_dialog
     single_dialog_timestamps = dialog_timestamps["ab133da0-f27e51e0"]
     print(single_dialog_timestamps)
-    
-    #Timestamps für Aussagen oder Fragen:
-    print("All Speechact Timestamps for 'ab133da0-f27e51e0':")
-    all_speechact_timestamps = extract_speechact_timestamps(folder_dialog, speechact_type="Frage")
-    single_speecact_timestamps= all_speechact_timestamps["ab133da0-f27e51e0"]
-    print(single_speecact_timestamps)
 
-    #Timestamps für alle Hesitations (stottern) z.b. [UH]
+    #Timestamps for all Hesitations (stottern) e.g. [UH] for player "ab133da0-f27e51e0":
     print("All Hesitations for 'ab133da0-f27e51e0':")
-    all_token_timestamps = extract_bracketed_timestamps(folder_json, output_path="no", export=False)
+    all_token_timestamps = extract_bracketed_timestamps(folder_json, output_path="no", export=False)                # folder_json
     single_token_timestamps = all_token_timestamps["ab133da0-f27e51e0"]
     print(single_token_timestamps)
 
-    #Timestamps für alle turnover (Backchannelling, Turn transition) -->AUSSTEHEND
+    #Timestamps for Statements or Questions for player "ab133da0-f27e51e0":
+    print("All Speechact Timestamps for 'ab133da0-f27e51e0':")
+    all_speechact_timestamps = extract_speechact_timestamps(folder_dialog, speechact_type="Frage")                  # folder_dialog
+    single_speecact_timestamps= all_speechact_timestamps["ab133da0-f27e51e0"]
+    print(single_speecact_timestamps)
+    
+    #Timestamps for all turnover (Backchannelling, Turn transition) --> TO BE CONTINUED...
